@@ -3,12 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
+    Rigidbody2D rb;
     private Animator animator;
     public Animator feetAnimator;
-    public float moveSpeed;
+    public float moveSpeed= 1f;
     bool isReloading=false;
     bool isRunning=false;
     bool isFeetRunning = false;
+    
+
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     //private Transform objectTransfom;
     //private float noMovementThreshold = 0.0001f;
@@ -16,7 +24,7 @@ public class PlayerController : MonoBehaviour {
     //Vector3[] previousLocations = new Vector3[noMovementFrames];
     //private bool isMoving;
 
-    
+
 
     void Start () {
         animator = GetComponent<Animator>();
@@ -44,24 +52,6 @@ public class PlayerController : MonoBehaviour {
    
     // Update is called once per frame
     void Update () {
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime, Space.World);
-        }
-        
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(Vector3.up * moveSpeed * Time.deltaTime, Space.World);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime, Space.World);
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(Vector3.down * moveSpeed * Time.deltaTime, Space.World);
-        }
 
         ////Store the newest vector at the end of the list of vectors
         //for (int i = 0; i < previousLocations.Length - 1; i++)

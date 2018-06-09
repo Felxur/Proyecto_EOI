@@ -5,11 +5,12 @@ using UnityEngine;
 public class MovimientoPlayer : MonoBehaviour {
 
     public float speed = 1f;
-    Rigidbody rb;
+    Rigidbody2D rb;
+    
 
     void Awake()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
 	// Use this for initialization
@@ -19,17 +20,22 @@ public class MovimientoPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
+
+    }
+
+    private void FixedUpdate()
+    {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
-        Vector3 direccion = new Vector3(horizontal, vertical, 0).normalized;
+        Vector2 direccion = new Vector2(horizontal, vertical).normalized;
 
-        //transform.position += direccion * Time.deltaTime * speed;
-        //transform.Translate(direccion * speed * Time.deltaTime, Space.World);
-        rb.velocity = direccion * speed;
+        rb.velocity = direccion * speed;//no es necesario que velocidad esta tambien regulada por time.deltatime?
 
-        //Debug.LogFormat("Horizontal: {0} || Vertical: {1} ", direccion.x, direccion.y);
+        Debug.LogFormat("Vector de movimiento que genero: {0}", horizontal * Vector2.right);
 
-        Debug.LogFormat("Vector de movimiento que genero: {0}", horizontal * Vector3.right);
-	}
+    }
+
+
 }
