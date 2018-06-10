@@ -31,7 +31,7 @@ public class MovimientoPlayer : MonoBehaviour {
 
         Vector2 direccion = new Vector2(horizontal, vertical).normalized;
 
-        rb.velocity = direccion * speed;//no es necesario que velocidad esta tambien regulada por time.deltatime?
+        rb.velocity = direccion * speed;//¿es necesario que velocidad esta tambien regulada por time.deltatime?
 
         Debug.LogFormat("Vector de movimiento que genero: {0}", horizontal * Vector2.right);
 

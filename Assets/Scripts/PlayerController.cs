@@ -6,10 +6,11 @@ public class PlayerController : MonoBehaviour {
     Rigidbody2D rb;
     private Animator animator;
     public Animator feetAnimator;
-    public float moveSpeed= 1f;
+    public float speed= 5f;
     bool isReloading=false;
     bool isRunning=false;
     bool isFeetRunning = false;
+    bool isShooting = false;
     
 
 
@@ -18,65 +19,53 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    //private Transform objectTransfom;
-    //private float noMovementThreshold = 0.0001f;
-    //private const int noMovementFrames = 3;
-    //Vector3[] previousLocations = new Vector3[noMovementFrames];
-    //private bool isMoving;
-
-
-
     void Start () {
         animator = GetComponent<Animator>();
     }
 
-    //public bool IsMoving
-    //{
-    //    get { return isMoving; }
-    //}
-    //void Awake()
-    //{
-    //    //For good measure, set the previous locations
-    //    for (int i = 0; i < previousLocations.Length; i++)
-    //    {
-    //        previousLocations[i] = Vector3.zero;
-    //    }
-    //}
+   
+   
+    // Update is called once per frame
+    void Update () {
+ 
 
 
-    void SetIsReloadingFalse()
+    }
+    private void FixedUpdate()
+    {
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+
+        Vector2 direccion = new Vector2(horizontal, vertical).normalized;
+
+        rb.velocity = direccion * speed;//¿es necesario que velocidad esta tambien regulada por time.deltatime?
+
+        Debug.LogFormat("Vector de movimiento que genero: {0} {1}", horizontal, vertical);
+
+        if (horizontal !=0 || vertical!=0 )
+        {
+            animator.SetBool("IsRunning",true);
+            feetAnimator.SetBool("IsRunning",true);
+        }else if(horizontal==0 && vertical==0){
+            feetAnimator.SetBool("IsRunning",false);
+            animator.SetBool("IsRunning", false);
+        }
+        if (Input.GetKeyDown(KeyCode.R) && !isShooting)
+        {
+            isReloading = true;
+            animator.SetBool("IsReloading", true);
+        }
+
+    }
+
+    void setIsReloadingFalse()
     {
         isReloading = false;
         animator.SetBool("IsReloading", false);
     }
-   
-    // Update is called once per frame
-    void Update () {
-
-        ////Store the newest vector at the end of the list of vectors
-        //for (int i = 0; i < previousLocations.Length - 1; i++)
-        //{
-        //    previousLocations[i] = previousLocations[i + 1];
-        //}
-        //previousLocations[previousLocations.Length - 1] = objectTransfom.position;
-
-        ////Check the distances between the points in your previous locations
-        ////If for the past several updates, there are no movements smaller than the threshold,
-        ////you can most likely assume that the object is not moving
-        //for (int i = 0; i < previousLocations.Length - 1; i++)
-        //{
-        //    if (Vector3.Distance(previousLocations[i], previousLocations[i + 1]) >= noMovementThreshold)
-        //    {
-        //        //The minimum movement has been detected between frames
-        //        isMoving = true;
-        //        break;
-                
-        //    }
-        //    else
-        //    {
-        //        isMoving = false;
-        //        animator.SetBool("isRunning",false);
-        //    }
-        //}
+    void setIsshootingFalse()
+    {
+        isShooting = false;
+        animator.SetBool("IsShooting", false);
     }
 }
