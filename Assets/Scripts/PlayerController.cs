@@ -7,29 +7,25 @@ public class PlayerController : MonoBehaviour {
     private Animator animator;
     public Animator feetAnimator;
     public float speed= 5f;
-    bool isReloading=false;
-    bool isRunning=false;
-    bool isFeetRunning = false;
-    bool isShooting = false;
+    //bool isRunning=false;
+    //bool isFeetRunning = false;
+    
     
 
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
-    void Start () {
-        animator = GetComponent<Animator>();
+    void Start () { 
     }
 
    
    
     // Update is called once per frame
     void Update () {
- 
-
-
     }
     private void FixedUpdate()
     {
@@ -46,26 +42,12 @@ public class PlayerController : MonoBehaviour {
         {
             animator.SetBool("IsRunning",true);
             feetAnimator.SetBool("IsRunning",true);
+
         }else if(horizontal==0 && vertical==0){
             feetAnimator.SetBool("IsRunning",false);
             animator.SetBool("IsRunning", false);
         }
-        if (Input.GetKeyDown(KeyCode.R) && !isShooting)
-        {
-            isReloading = true;
-            animator.SetBool("IsReloading", true);
-        }
-
     }
 
-    void setIsReloadingFalse()
-    {
-        isReloading = false;
-        animator.SetBool("IsReloading", false);
-    }
-    void setIsshootingFalse()
-    {
-        isShooting = false;
-        animator.SetBool("IsShooting", false);
-    }
+    
 }
