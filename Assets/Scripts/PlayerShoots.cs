@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using shooter;
 
 public class PlayerShoots : MonoBehaviour {
 
@@ -13,6 +14,7 @@ public class PlayerShoots : MonoBehaviour {
     bool isMozzle = false;
     public GameObject moozle;
     public GameObject clipEmptyPrefab;
+    public Weapon weapon;
 
 
     void Awake()
@@ -41,9 +43,11 @@ public class PlayerShoots : MonoBehaviour {
             }
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
+                weapon.shoot();
                 moozle.SetActive(true);
                 isShooting = true;
                 animator.SetBool("IsShooting", true);
+                
             }
         }
         else
@@ -71,7 +75,6 @@ public class PlayerShoots : MonoBehaviour {
     void setIsReloadingFalse()
     {
         isReloading = false;
-        Debug.Log("jhjh");
         animator.SetBool("IsReloading", false);
     }
 
