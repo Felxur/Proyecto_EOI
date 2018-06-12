@@ -31,18 +31,28 @@ public class PlayerShoots : MonoBehaviour {
     }
 
     void FixedUpdate () {
-        if (Input.GetKeyDown(KeyCode.R) && !isShooting && !isReloading)
+        if (!isReloading)
         {
-            isReloading = true;
-            animator.SetBool("IsReloading", true);
-            throwclip();
-           
+            if (Input.GetKeyDown(KeyCode.R) && !isShooting)
+            {
+                isReloading = true;
+                animator.SetBool("IsReloading", true);
+                throwclip();
+            }
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                moozle.SetActive(true);
+                isShooting = true;
+                animator.SetBool("IsShooting", true);
+            }
         }
-        if (Input.GetKeyDown(KeyCode.Mouse0) && !isReloading)
+        else
         {
-            moozle.SetActive(true);
-            isShooting = true;
-            animator.SetBool("IsShooting", true);
+            AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
+            if (info.IsName("Reload") && info.normalizedTime >= 1F)
+            {
+                setIsReloadingFalse();
+            }
         }
     }
 
@@ -61,6 +71,7 @@ public class PlayerShoots : MonoBehaviour {
     void setIsReloadingFalse()
     {
         isReloading = false;
+        Debug.Log("jhjh");
         animator.SetBool("IsReloading", false);
     }
 
