@@ -21,12 +21,10 @@ public class PlayerController : MonoBehaviour {
 
     void Start () { 
     }
-
-   
-   
-    // Update is called once per frame
     void Update () {
     }
+
+
     private void FixedUpdate()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -35,8 +33,6 @@ public class PlayerController : MonoBehaviour {
         Vector2 direccion = new Vector2(horizontal, vertical).normalized;
 
         rb.velocity = direccion * speed;//¿es necesario que velocidad esta tambien regulada por time.deltatime?
-
-        Debug.LogFormat("Vector de movimiento que genero: {0} {1}", horizontal, vertical);
 
         if (horizontal !=0 || vertical!=0 )
         {
@@ -47,7 +43,5 @@ public class PlayerController : MonoBehaviour {
             feetAnimator.SetBool("IsRunning",false);
             animator.SetBool("IsRunning", false);
         }
-    }
-
-    
+    }  
 }

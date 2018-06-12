@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerShoots : MonoBehaviour {
 
     Rigidbody2D rb;
+    float positionX;
+    float positionY;
     private Animator animator;
     bool isShooting = false;
     bool isReloading = false;
@@ -21,10 +23,15 @@ public class PlayerShoots : MonoBehaviour {
     void Start () {
 		
 	}
-	
-	
-	void FixedUpdate () {
-        if (Input.GetKeyDown(KeyCode.R) && !isShooting)
+
+    void Update()
+    {
+        positionX = transform.position.x;
+        positionY = transform.position.y;
+    }
+
+    void FixedUpdate () {
+        if (Input.GetKeyDown(KeyCode.R) && !isShooting && !isReloading)
         {
             isReloading = true;
             animator.SetBool("IsReloading", true);
@@ -41,7 +48,8 @@ public class PlayerShoots : MonoBehaviour {
 
     void throwclip()
     {
-        Instantiate(clipEmptyPrefab, transform.position, Quaternion.identity);
+        
+        Instantiate(clipEmptyPrefab, new Vector2(positionX+Random.Range(-0.6f, 0.6f), positionY+Random.Range(-0.6f, 0.6f)), Quaternion.Euler(new Vector3(0,0,Random.Range(0,360f))));
     }
     void setIsShootingFalse()
     {
