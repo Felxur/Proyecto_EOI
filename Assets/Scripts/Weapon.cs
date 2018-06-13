@@ -6,7 +6,6 @@ namespace shooter
 {
     public class Weapon : MonoBehaviour
     {
-        public float firerate = 0f;
         public float damagePistol = 10f;
         public LayerMask whatToHit;
         public Transform firePoint;
