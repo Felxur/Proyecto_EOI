@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 382425988}
   - component: {fileID: 382425990}
   - component: {fileID: 382425989}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 524924889}
   - component: {fileID: 524924886}
   - component: {fileID: 524924893}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -510,7 +510,7 @@ MonoBehaviour:
   moozle: {fileID: 941477848}
   clipEmptyPrefab: {fileID: 1957782465617374, guid: 06899371433e1834c88a10ebd8cbcd52,
     type: 2}
-  weapon: {fileID: 0}
+  weapon: {fileID: 1611612741}
 --- !u!1 &898221803
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,7 +574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941477849}
   - component: {fileID: 941477850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: muzzle_flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,7 +735,7 @@ GameObject:
   - component: {fileID: 1611612740}
   - component: {fileID: 1611612742}
   - component: {fileID: 1611612741}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,7 +768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firerate: 0
-  damage: 10
+  damagePistol: 10
   whatToHit:
     serializedVersion: 2
     m_Bits: 4294967035
@@ -983,7 +983,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2077707025}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

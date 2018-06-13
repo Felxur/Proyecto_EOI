@@ -2,7 +2,10 @@ fileFormatVersion: 2
 guid: 727854cf7d8ad5b4c837f6da1343dd9c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: M484BulletCollection2_0
+    21300000: BulletRifle
+    21300002: M484BulletCollection2_1
+    21300004: BulletPistol
+    21300006: BulletShotgun
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -83,21 +86,61 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: M484BulletCollection2_0
+      name: BulletPistol
       rect:
         serializedVersion: 2
-        x: 429
-        y: 733
-        width: 5
-        height: 13
+        x: 449
+        y: 713
+        width: 13
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b36a4b30bf9ca7408fb78fbec973fd7
+      spriteID: 4dcdeab3a1ebd51418269872abadd1af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BulletRifle
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 638
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97b489cea7b96144a1866ad5de0bb40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BulletShotgun
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 553
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c21dc332d669345b1ce46edf3c0bb8
       vertices: []
       indices: 
       edges: []

@@ -7,7 +7,7 @@ namespace shooter
     public class Weapon : MonoBehaviour
     {
         public float firerate = 0f;
-        public float damage = 10f;
+        public float damagePistol = 10f;
         public LayerMask whatToHit;
         public Transform firePoint;
         public Transform bulletPrefab;
@@ -25,11 +25,6 @@ namespace shooter
         // Update is called once per frame
         void Update()
         {
-
-            if (Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                shoot();
-            }
         }
         public void shoot()
         {
@@ -38,10 +33,6 @@ namespace shooter
             RaycastHit2D hit = Physics2D.Raycast(firePointPosition, mousePosition - firePointPosition, 100, whatToHit);
             shootBullet();
             Debug.DrawLine(firePointPosition, (mousePosition - firePointPosition) * 100);
-            if (hit.collider != null)
-            {
-
-            }
         }
 
         void shootBullet()
