@@ -17,9 +17,13 @@ public class EnemyMovement : MonoBehaviour {
 	
 	
 	void Update () {
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        }
         if (Vector2.Distance(transform.position, target.position)> stopingDistance)
         {
-            Debug.Log("siguiendo");
+            //Debug.Log("siguiendo");
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
        

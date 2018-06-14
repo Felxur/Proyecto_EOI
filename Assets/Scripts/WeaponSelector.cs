@@ -15,6 +15,7 @@ public class WeaponSelector : MonoBehaviour {
     void Awake () {
 
         playerPistol.SetActive(true);
+        playerSelect = playerPistol.transform;
         playerRifle.SetActive(false);
         //playerShotgun.SetActive(false);
 		
@@ -26,14 +27,16 @@ public class WeaponSelector : MonoBehaviour {
         
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-  
+            playerPistol.transform.position = playerSelect.position;
+            playerSelect = playerPistol.transform;
             playerRifle.SetActive(false);
             //playerShotgun.SetActive(false);
             playerPistol.SetActive(true);
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-
+            playerRifle.transform.position = playerSelect.position;
+            playerSelect = playerRifle.transform;
             //playerShotgun.SetActive(false);
             playerPistol.SetActive(false);
             playerRifle.SetActive(true);

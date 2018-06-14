@@ -197,6 +197,28 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4710542754178328, guid: 4ea25fa25e072a742ad1f706bf195210, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.666
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707686355439204, guid: 4ea25fa25e072a742ad1f706bf195210, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.749
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250557082089910, guid: 4ea25fa25e072a742ad1f706bf195210, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114103901842160662, guid: 4ea25fa25e072a742ad1f706bf195210,
+        type: 2}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 1668094590}
+    - target: {fileID: 114591667921173500, guid: 4ea25fa25e072a742ad1f706bf195210,
+        type: 2}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 2007357857}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ea25fa25e072a742ad1f706bf195210, type: 2}
   m_IsPrefabParent: 0
@@ -458,7 +480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1008224202
 Transform:
   m_ObjectHideFlags: 0
@@ -466,7 +488,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1008224201}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.9, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1927622348}
@@ -486,7 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05301683bf803ab4cb69070d043591cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  feetAnimator: {fileID: 0}
+  feetAnimator: {fileID: 1927622349}
   speed: 5
 --- !u!114 &1008224204
 MonoBehaviour:
@@ -499,8 +521,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 900b05287cdab6f4d9e771645989f35d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1008224208}
   moozle: {fileID: 1491123412}
-  clipEmptyPrefab: {fileID: 0}
+  clipEmptyPrefab: {fileID: 1957782465617374, guid: 06899371433e1834c88a10ebd8cbcd52,
+    type: 2}
   weapon: {fileID: 587715720}
 --- !u!114 &1008224205
 MonoBehaviour:
@@ -804,6 +828,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!4 &1668094590 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4710542754178328, guid: 4ea25fa25e072a742ad1f706bf195210,
+    type: 2}
+  m_PrefabInternal: {fileID: 127072695}
 --- !u!1 &1927622347
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,6 +938,11 @@ GameObject:
 --- !u!4 &2007357853 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4516818774884638, guid: 4ea25fa25e072a742ad1f706bf195210,
+    type: 2}
+  m_PrefabInternal: {fileID: 127072695}
+--- !u!95 &2007357857 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 95093711735853378, guid: 4ea25fa25e072a742ad1f706bf195210,
     type: 2}
   m_PrefabInternal: {fileID: 127072695}
 --- !u!1 &2017443755

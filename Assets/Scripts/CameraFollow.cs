@@ -12,6 +12,10 @@ public class CameraFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (Input.GetKeyDown(KeyCode.Alpha1)|| Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3) )
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+        }
         if (followPlayer==true)
         {
             camFollowPlayer();
