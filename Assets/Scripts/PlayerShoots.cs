@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using shooter;
 
+
 public class PlayerShoots : MonoBehaviour {
 
     Rigidbody2D rb;
@@ -11,10 +12,12 @@ public class PlayerShoots : MonoBehaviour {
     private Animator animator;
     bool isShooting = false;
     bool isReloading = false;
-    bool isMozzle = false;
     public GameObject moozle;
     public GameObject clipEmptyPrefab;
     public Weapon weapon;
+    public int state;
+    
+    
 
 
     void Awake()
@@ -23,8 +26,8 @@ public class PlayerShoots : MonoBehaviour {
         animator = GetComponent<Animator>();
     }
     void Start () {
-		
-	}
+        state = WeaponSelector.state;
+    }
 
     void Update()
     {
@@ -32,7 +35,8 @@ public class PlayerShoots : MonoBehaviour {
         positionY = transform.position.y;
     }
 
-    void FixedUpdate () {
+    void FixedUpdate()
+    {
         if (!isReloading)
         {
             if (Input.GetKeyDown(KeyCode.R) && !isShooting)
@@ -41,13 +45,36 @@ public class PlayerShoots : MonoBehaviour {
                 animator.SetBool("IsReloading", true);
                 throwclip();
             }
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (Input.GetKeyDown(KeyCode.Mouse0) && state == 1)
             {
                 weapon.shoot();
                 moozle.SetActive(true);
                 isShooting = true;
                 animator.SetBool("IsShooting", true);
-                
+                if (isShooting == true)
+                {
+                    AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
+                    if (info.IsName("Shoot") && info.normalizedTime >= 1F)
+                    {
+                        setIsShootingFalse();
+                    }
+                }
+
+            }
+            else if (Input.GetKey(KeyCode.Mouse0) && state == 2)
+            {
+                weapon.shoot();
+                moozle.SetActive(true);
+                isShooting = true;
+                animator.SetBool("IsShooting", true);
+                if (isShooting == true)
+                {
+                    AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
+                    if (info.IsName("Shoot") && info.normalizedTime >= 1F)
+                    {
+                        setIsShootingFalse();
+                    }
+                }
             }
         }
         else

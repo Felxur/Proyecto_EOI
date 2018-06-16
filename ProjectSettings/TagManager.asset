@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Attack
+  - BulletPistol
+  - BulletRifle
+  - BulletShotgun
   layers:
   - Default
   - TransparentFX
@@ -19,8 +23,8 @@ TagManager:
   - Usable
   - Wall
   - Scenario
-  - 
-  - 
+  - Attack
+  - Bullets
   - 
   - 
   - 

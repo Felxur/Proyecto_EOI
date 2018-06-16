@@ -7,15 +7,27 @@ public class BulletController : MonoBehaviour {
     public int moveSpeed=50;
     float currentTime;
     public float destroyTime = 2f;
+    public static int damageBullet=15;
 
 
     void Start () {
-
-        
+    
     }
 	
 	
 	void Update () {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            damageBullet = 15;
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            damageBullet = 25;
+        }
+        else if(Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            damageBullet = 10;
+        }
         transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
         currentTime += Time.deltaTime;
         if (currentTime >= destroyTime)
@@ -26,8 +38,7 @@ public class BulletController : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+
+        gameObject.SetActive(false);
     }
-
-
 }

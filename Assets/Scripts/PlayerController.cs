@@ -7,8 +7,9 @@ public class PlayerController : MonoBehaviour {
     private Animator animator;
     public Animator feetAnimator;
     public float speed= 5f;
-    //bool isRunning=false;
-    //bool isFeetRunning = false;
+    public int life=100;
+    int EnemyDamage;
+    
     
     
 
@@ -19,7 +20,8 @@ public class PlayerController : MonoBehaviour {
         animator = GetComponent<Animator>();
     }
 
-    void Start () { 
+    void Start () {
+        EnemyDamage = EnemyMovement.damage;
     }
     void Update () {
     }
@@ -43,5 +45,17 @@ public class PlayerController : MonoBehaviour {
             feetAnimator.SetBool("IsRunning",false);
             animator.SetBool("IsRunning", false);
         }
-    }  
+    }
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        if (collision.tag.Equals("Attack"))
+        {
+            life -=EnemyDamage;
+            Life_Munition.life = life;
+            
+            Debug.Log("tu vida es:"+life);
+        }
+    }
+
 }
