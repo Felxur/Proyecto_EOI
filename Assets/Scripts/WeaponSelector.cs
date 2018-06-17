@@ -10,13 +10,22 @@ using UnityEngine;
         public GameObject playerShotgun;
         private Transform playerSelect;
         public static int state;
+    //--------balas en cargador-->tamaño de cargador-->municion maxima
+    public static int[,] munition = new int[,]{
+            {15,15,99},//pistola municion maxima infinita
+            {50, 50,0},
+            {0,5,0}
+        };
 
 
 
-        // Use this for initialization
-        void Awake()
+
+
+    // Use this for initialization
+    void Awake()
         {
-            state = 1;
+
+            state = 0;
             playerPistol.SetActive(true);
             playerSelect = playerPistol.transform;
             playerRifle.SetActive(false);
@@ -31,7 +40,7 @@ using UnityEngine;
 
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
-                state = 1;
+                state = 0;
                 playerPistol.transform.position = playerSelect.position;
                 playerSelect = playerPistol.transform;
                 playerRifle.SetActive(false);
@@ -41,7 +50,7 @@ using UnityEngine;
             }
             if (Input.GetKeyDown(KeyCode.Alpha2))
             {
-                state = 2;
+                state = 1;
                 playerRifle.transform.position = playerSelect.position;
                 playerSelect = playerRifle.transform;
                 //playerShotgun.SetActive(false);
@@ -50,7 +59,7 @@ using UnityEngine;
             }
             //if (Input.GetKeyDown(KeyCode.Alpha3)&& selection!=3)
             //{
-            //    state = 3;
+            //    state = 2;
             //    playerPistol.SetActive(false);
             //    playerRifle.SetActive(false);
             //    playerShotgun.SetActive(true);
