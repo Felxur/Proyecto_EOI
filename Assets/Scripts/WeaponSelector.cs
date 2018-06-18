@@ -15,9 +15,9 @@ namespace selecWeapon
         public static int state;
         //--------balas en cargador,tamaño de cargador,municion maxima
         public static int[,] munitions = new int[,]{
-            {5,15,99},//pistola municion maxima infinita
-            {0, 50,100},
-            {0,5,0}
+            {0,15,99},//pistola municion maxima infinita
+            {0, 50,100},//rifle
+            {0,5,0}//Escopeta
         };
 
 
@@ -32,10 +32,8 @@ namespace selecWeapon
 
         }
 
-        // Update is called once per frame
-        void Update()
+        private void FixedUpdate()
         {
-
 
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
@@ -56,13 +54,18 @@ namespace selecWeapon
                 playerPistol.SetActive(false);
                 playerRifle.SetActive(true);
             }
-            //if (Input.GetKeyDown(KeyCode.Alpha3)&& selection!=3)
+            //if (Input.GetKeyDown(KeyCode.Alpha3) && state!=2)
             //{
             //    state = 2;
             //    playerPistol.SetActive(false);
             //    playerRifle.SetActive(false);
             //    playerShotgun.SetActive(true);
             //}
+        }
+
+        void Update()
+        {
+
         }
 
         public void setPistolMunition(int munition,  int maxMunition)

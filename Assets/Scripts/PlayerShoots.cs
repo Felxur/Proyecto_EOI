@@ -17,7 +17,7 @@ public class PlayerShoots : MonoBehaviour {
     public GameObject clipEmptyPrefab;
     public Weapon weapon;
     public WeaponSelector weaponSelector;
-    public int state;
+    private int state;
     public static int munition;
     public int charger;
     public static int maxMunition;
@@ -36,21 +36,22 @@ public class PlayerShoots : MonoBehaviour {
         charger = WeaponSelector.munitions[0, 1];
         maxMunition = WeaponSelector.munitions[0, 2];
 
-        #if UNITY_EDITOR
-        HACKS();
-        #endif
+        //#if UNITY_EDITOR
+        //HACKS();
+        //#endif
     }
 
     //BORRAME
-    void HACKS()
-    {
-        maxMunition = 12;
-    }
+    //void HACKS()
+    //{
+    //    maxMunition = 12;
+    //}
 
     void Update()
     {
         positionX = transform.position.x;
         positionY = transform.position.y;
+        Debug.Log("estado actual"+state);
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
@@ -64,6 +65,9 @@ public class PlayerShoots : MonoBehaviour {
             munition = WeaponSelector.munitions[state, 0];
             charger = WeaponSelector.munitions[state, 1];
             maxMunition = WeaponSelector.munitions[state, 2];
+            Debug.Log("municion de la pistola" + munition);
+            Debug.Log("cargador de la pistola" + charger);
+            Debug.Log("municion maxima de la pistola" + maxMunition);
 
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
@@ -72,28 +76,31 @@ public class PlayerShoots : MonoBehaviour {
             {
                 weaponSelector.setPistolMunition(munition, maxMunition);
             }
-            else if (state == 1)
+            else if (state == 2)
             {
 
             }
             munition = WeaponSelector.munitions[state, 0];
             charger = WeaponSelector.munitions[state, 1];
             maxMunition = WeaponSelector.munitions[state, 2];
+            Debug.Log("municion de la rifle" + munition);
+            Debug.Log("cargador de la rifle" + charger);
+            Debug.Log("municion maxima del rifle" + maxMunition);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            if (state == 0)
-            {
-                weaponSelector.setPistolMunition(munition, maxMunition);
-            }
-            else if (state == 1)
-            {
-                weaponSelector.setRifleMunition(munition, maxMunition);
-            }
-            munition = WeaponSelector.munitions[state, 0];
-            charger = WeaponSelector.munitions[state, 1];
-            maxMunition = WeaponSelector.munitions[state, 2];
-        }
+        //if (Input.GetKeyDown(KeyCode.Alpha3)&& state!=2)
+        //{
+        //    if (state == 0)
+        //    {
+        //        weaponSelector.setPistolMunition(munition, maxMunition);
+        //    }
+        //    else if (state == 1)
+        //    {
+        //        weaponSelector.setRifleMunition(munition, maxMunition);
+        //    }
+        //    munition = WeaponSelector.munitions[state, 0];
+        //    charger = WeaponSelector.munitions[state, 1];
+        //    maxMunition = WeaponSelector.munitions[state, 2];
+        //}
     }
 
     void FixedUpdate()
@@ -144,7 +151,7 @@ public class PlayerShoots : MonoBehaviour {
                 isShooting = true;
                 animator.SetBool("IsShooting", true);
                 --munition;
-                Debug.Log("municion del rifle es" + munition);
+                //Debug.Log("municion del rifle es" + munition);
                 if (isShooting == true)
                 {
                     AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);

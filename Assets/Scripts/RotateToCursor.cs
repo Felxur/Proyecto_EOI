@@ -45,7 +45,7 @@ public class RotateToCursor : MonoBehaviour {
         Debug.DrawLine(center, mousePos);
         Debug.DrawLine(firepoint, mousePos);
 
-        Debug.Log(Vector2.SignedAngle(Vector2.right, toTarget));
+        //Debug.Log(Vector2.SignedAngle(Vector2.right, toTarget));
 
         rigid.rotation = Vector2.SignedAngle(Vector2.right, toTarget);
 

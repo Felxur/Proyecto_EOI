@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour {
     Rigidbody2D rb;
     private Animator animator;
     public Animator feetAnimator;
-    public float speed= 5f;
+    public float speed=5f;
     private int life=100;
     int EnemyDamage;
     
@@ -48,13 +48,11 @@ public class PlayerController : MonoBehaviour {
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("te han dado");
+        
         if (collision.tag.Equals("Attack"))
         {
             life -=EnemyDamage;
             Life_Munition.life = life;
-            
-            Debug.Log("tu vida es:"+life);
         }
     }
 
