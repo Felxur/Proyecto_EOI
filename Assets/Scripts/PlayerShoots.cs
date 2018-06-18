@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using shooter;
+using selecWeapon;
 
 
 public class PlayerShoots : MonoBehaviour {
@@ -15,6 +16,7 @@ public class PlayerShoots : MonoBehaviour {
     public GameObject moozle;
     public GameObject clipEmptyPrefab;
     public Weapon weapon;
+    public WeaponSelector weaponSelector;
     public int state;
     public static int munition;
     public int charger;
@@ -30,9 +32,19 @@ public class PlayerShoots : MonoBehaviour {
     }
     void Start () {
         state = WeaponSelector.state;
-        munition = WeaponSelector.munition[0, 0];
-        charger = WeaponSelector.munition[0, 1];
-        maxMunition = WeaponSelector.munition[0, 2];
+        munition = WeaponSelector.munitions[0, 0];
+        charger = WeaponSelector.munitions[0, 1];
+        maxMunition = WeaponSelector.munitions[0, 2];
+
+        #if UNITY_EDITOR
+        HACKS();
+        #endif
+    }
+
+    //BORRAME
+    void HACKS()
+    {
+        maxMunition = 12;
     }
 
     void Update()
@@ -42,22 +54,45 @@ public class PlayerShoots : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            munition = WeaponSelector.munition[state, 0];
-            charger = WeaponSelector.munition[state, 1];
-            maxMunition = WeaponSelector.munition[0, 2];
+            if (state==1)
+            {
+                weaponSelector.setRifleMunition(munition, maxMunition);
+            }else if (state==2)
+            {
+
+            }
+            munition = WeaponSelector.munitions[state, 0];
+            charger = WeaponSelector.munitions[state, 1];
+            maxMunition = WeaponSelector.munitions[state, 2];
 
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            munition = WeaponSelector.munition[state, 0];
-            charger = WeaponSelector.munition[state, 1];
-            maxMunition = WeaponSelector.munition[state, 2];
+            if (state == 0)
+            {
+                weaponSelector.setPistolMunition(munition, maxMunition);
+            }
+            else if (state == 1)
+            {
+
+            }
+            munition = WeaponSelector.munitions[state, 0];
+            charger = WeaponSelector.munitions[state, 1];
+            maxMunition = WeaponSelector.munitions[state, 2];
         }
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            munition = WeaponSelector.munition[state, 0];
-            charger = WeaponSelector.munition[state, 1];
-            maxMunition = WeaponSelector.munition[state, 2];
+            if (state == 0)
+            {
+                weaponSelector.setPistolMunition(munition, maxMunition);
+            }
+            else if (state == 1)
+            {
+                weaponSelector.setRifleMunition(munition, maxMunition);
+            }
+            munition = WeaponSelector.munitions[state, 0];
+            charger = WeaponSelector.munitions[state, 1];
+            maxMunition = WeaponSelector.munitions[state, 2];
         }
     }
 
@@ -71,11 +106,15 @@ public class PlayerShoots : MonoBehaviour {
                 isReloading = true;
                 animator.SetBool("IsReloading", true);
                 throwclip();
-                for (; munition==charger || maxMunition==0; maxMunition--)
-                {
-                    Debug.Log("recargando");
-                    ++munition;
-                }
+
+                int r = charger - munition;
+                int m = maxMunition - r;
+                if (m < 0)
+                    r += m;
+
+                maxMunition -= r;
+                munition += r;
+
                 if (state==0)
                 {
                     maxMunition = 99;
@@ -98,7 +137,7 @@ public class PlayerShoots : MonoBehaviour {
                 }
 
             }
-            else if (Input.GetKey(KeyCode.Mouse0) && state == 1)
+            else if (Input.GetKey(KeyCode.Mouse0) && state == 1 && munition>0)
             {
                 weapon.shoot();
                 moozle.SetActive(true);
@@ -144,4 +183,5 @@ public class PlayerShoots : MonoBehaviour {
         animator.SetBool("IsReloading", false);
     }
 
+ 
 }

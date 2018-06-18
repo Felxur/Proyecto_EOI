@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace selecWeapon
+{
+
     public class WeaponSelector : MonoBehaviour
     {
 
@@ -10,21 +13,17 @@ using UnityEngine;
         public GameObject playerShotgun;
         private Transform playerSelect;
         public static int state;
-    //--------balas en cargador-->tamaño de cargador-->municion maxima
-    public static int[,] munition = new int[,]{
-            {15,15,99},//pistola municion maxima infinita
-            {50, 50,0},
+        //--------balas en cargador,tamaño de cargador,municion maxima
+        public static int[,] munitions = new int[,]{
+            {5,15,99},//pistola municion maxima infinita
+            {0, 50,100},
             {0,5,0}
         };
 
 
-
-
-
-    // Use this for initialization
-    void Awake()
+        // Use this for initialization
+        void Awake()
         {
-
             state = 0;
             playerPistol.SetActive(true);
             playerSelect = playerPistol.transform;
@@ -66,4 +65,18 @@ using UnityEngine;
             //}
         }
 
+        public void setPistolMunition(int munition,  int maxMunition)
+        {
+            munitions[0, 0] = munition;         
+            munitions[0, 2] = maxMunition;
+
+        }
+        public void setRifleMunition(int munition, int maxMunition)
+        {
+            munitions[1, 0] = munition;
+            munitions[1, 2] = maxMunition;
+
+        }
+
     }
+}

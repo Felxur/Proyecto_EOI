@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
     private Animator animator;
     public Animator feetAnimator;
     public float speed= 5f;
-    public int life=100;
+    private int life=100;
     int EnemyDamage;
     
     
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour {
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        Debug.Log("te han dado");
         if (collision.tag.Equals("Attack"))
         {
             life -=EnemyDamage;

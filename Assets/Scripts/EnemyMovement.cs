@@ -57,7 +57,7 @@ public class EnemyMovement : MonoBehaviour {
             }
             
         }
-        Debug.Log("el daño es" + bulletDamage);
+       // Debug.Log("el daño es" + bulletDamage);
 	}
     void setIsAttackingFalse()
     {

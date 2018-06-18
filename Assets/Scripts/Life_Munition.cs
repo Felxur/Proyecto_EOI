@@ -16,20 +16,19 @@ public class Life_Munition : MonoBehaviour {
     // Use this for initialization
     void Start () {
         life = 100;
-        munition = PlayerShoots.munition;
-        maxMunition = PlayerShoots.maxMunition;
+        //munition = PlayerShoots.munition;
+       // maxMunition = PlayerShoots.maxMunition;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log("municion de ui es;" + munition);
-
+        // Debug.Log("municion de ui es;" + munition);
+        updateMunition();
         float updateLife = Mathf.MoveTowards(rectTransform.rect.height, life, 5.0f);
         rectTransform.sizeDelta = new Vector2(100f, Mathf.Clamp(updateLife, 0.0f, 100f));
 	}
     void updateMunition()
     {
-
-        uiMAxMunition.text = munition.ToString();
+        uiMunition.text = PlayerShoots.munition.ToString();
     }
 }

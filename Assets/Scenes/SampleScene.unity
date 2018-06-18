@@ -113,6 +113,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &88566823 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4671787319463100, guid: 606740864d86ca845858f6181667d51f,
+    type: 2}
+  m_PrefabInternal: {fileID: 791221490}
 --- !u!1 &195423768
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,6 +435,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 50341960561898164, guid: 606740864d86ca845858f6181667d51f,
+        type: 2}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50341960561898164, guid: 606740864d86ca845858f6181667d51f,
+        type: 2}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50229792704200376, guid: 606740864d86ca845858f6181667d51f,
+        type: 2}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114215866605022108, guid: 606740864d86ca845858f6181667d51f,
+        type: 2}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 88566823}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 606740864d86ca845858f6181667d51f, type: 2}
   m_IsPrefabParent: 0
