@@ -9,6 +9,10 @@ TagManager:
   - BulletPistol
   - BulletRifle
   - BulletShotgun
+  - RifleMunition
+  - ShotgunMunition
+  - Health
+  - Armor
   layers:
   - Default
   - TransparentFX
