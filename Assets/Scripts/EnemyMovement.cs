@@ -21,11 +21,11 @@ public class EnemyMovement : MonoBehaviour {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
     void Start () {
-        bulletDamage = BulletController.damageBullet;
     }
 	
 	
 	void Update () {
+        bulletDamage = BulletController.damageBullet;
         if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3))
         {
             target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();

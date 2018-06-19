@@ -5,50 +5,79 @@ using UnityEngine;
 public class RotateToCursor : MonoBehaviour {
     Vector2 mousePos;
     Camera cam;
-    Rigidbody2D rigid;
-    public Transform firePoint;
 
 	// Use this for initialization
 	void Start () {
-        rigid = this.GetComponent<Rigidbody2D>();
+        player = GetComponent<Rigidbody2D>();
         cam = Camera.main;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-        rotateToCamera();
+
+    public Rigidbody2D player;
+    public Transform firePoint;
+
+    private void UpdateAim()
+    {
+        Vector2 target = cam.ScreenToWorldPoint(Input.mousePosition);
+
+
+
+        Vector2 center = player.position;
+        Vector2 firepoint = firePoint.position;
+        Vector2 fromFirepoint = center - firepoint;
+        float radius = fromFirepoint.magnitude;
+
+        Debug.DrawRay(center, -fromFirepoint);
+
+        Debug.DrawRay(target, fromFirepoint, Color.yellow);
+
+        Vector2 newTarget = FindCircleIntersection(center, radius, target, fromFirepoint);
+
+        Debug.DrawLine(target, newTarget, Color.green);
+
+        Debug.DrawLine(firepoint, target, Color.red);
+        Debug.DrawRay(firepoint, player.transform.right * (target - firepoint).magnitude, Color.white);
+
+        Vector2 toTarget = newTarget - center;
+
+        float angle = Vector2.SignedAngle(Vector2.right, toTarget);
+
+        float lerp = (newTarget - target).sqrMagnitude / fromFirepoint.sqrMagnitude;
+
+        float alpha = Mathf.Lerp(Vector2.SignedAngle(player.transform.right, -fromFirepoint), 0F, lerp);
+
+        player.transform.rotation = Quaternion.AngleAxis(angle - alpha, Vector3.forward);
+    }
+
+    private Vector2 FindCircleIntersection(Vector2 center, float radius, Vector2 origin, Vector2 direction)
+    {
+        Vector2 union = origin - center;
+
+        float a = Vector2.Dot(direction, direction);
+        float b = 2F * Vector2.Dot(union, direction);
+        float c = Vector2.Dot(union, union) - radius * radius;
+        float d = b * b - 4F * a * c;
+
+        if (d >= 0F)
+        {
+            d = Mathf.Sqrt(d);
+
+            float t1 = (-b - d) / (2F * a);
+
+            if (t1 >= 0F && t1 <= 1F)
+                return new Vector2(origin.x + t1 * direction.x, origin.y + t1 * direction.y);
+
+            float t2 = (-b + d) / (2F * a);
+
+            if (t1 < 0F && t2 >= 0F)
+                return origin;
+        }
+
+        return origin + direction;
+    }
+
+    // Update is called once per frame
+    void Update () {
+        UpdateAim();
 		
 	}
-
-    void rotateToCamera()
-    {
-        mousePos = cam.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
-
-        Vector2 center = rigid.position;
-        Vector2 firepoint = firePoint.position;
-
-        Vector2 toFirePoint = firepoint - center;
-        Vector2 toTarget = mousePos - center;
-
-        float radius = toFirePoint.magnitude;
-
-        if (toTarget.magnitude < radius*2F)
-            toTarget = toTarget.normalized * radius * 2F;
-
-        mousePos = center + toTarget;
-
-        mousePos -= toFirePoint;
-
-        toTarget = mousePos - center;
-
-        Debug.DrawLine(center, firepoint);
-        Debug.DrawLine(center, mousePos);
-        Debug.DrawLine(firepoint, mousePos);
-
-        //Debug.Log(Vector2.SignedAngle(Vector2.right, toTarget));
-
-        rigid.rotation = Vector2.SignedAngle(Vector2.right, toTarget);
-
-        //rigid.transform.eulerAngles = new Vector3(0, 0, Mathf.Atan2((mousePos.y - transform.position.y), (mousePos.x - transform.position.x)) * Mathf.Rad2Deg);
-    }
 }

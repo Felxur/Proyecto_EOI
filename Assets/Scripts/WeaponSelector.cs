@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using playershoots;
 
 namespace selecWeapon
 {
@@ -12,19 +13,14 @@ namespace selecWeapon
         public GameObject playerRifle;
         public GameObject playerShotgun;
         private Transform playerSelect;
-        public static int state;
-        //--------balas en cargador,tamaño de cargador,municion maxima
-        public static int[,] munitions = new int[,]{
-            {0,15,99},//pistola municion maxima infinita
-            {0, 50,100},//rifle
-            {0,5,0}//Escopeta
-        };
+        private int state=0;
+        
 
 
         // Use this for initialization
         void Awake()
         {
-            state = 0;
+            
             playerPistol.SetActive(true);
             playerSelect = playerPistol.transform;
             playerRifle.SetActive(false);
@@ -35,7 +31,7 @@ namespace selecWeapon
         private void FixedUpdate()
         {
 
-            if (Input.GetKeyDown(KeyCode.Alpha1))
+            if (Input.GetKeyDown(KeyCode.Alpha1) && state !=0)
             {
                 state = 0;
                 playerPistol.transform.position = playerSelect.position;
@@ -45,7 +41,7 @@ namespace selecWeapon
                 playerPistol.SetActive(true);
 
             }
-            if (Input.GetKeyDown(KeyCode.Alpha2))
+            if (Input.GetKeyDown(KeyCode.Alpha2) && state != 1)
             {
                 state = 1;
                 playerRifle.transform.position = playerSelect.position;
@@ -54,9 +50,9 @@ namespace selecWeapon
                 playerPistol.SetActive(false);
                 playerRifle.SetActive(true);
             }
-            //if (Input.GetKeyDown(KeyCode.Alpha3) && state!=2)
+            //if (Input.GetKeyDown(KeyCode.Alpha3) && state != 2)
             //{
-            //    state = 2;
+            //    state = 1;
             //    playerPistol.SetActive(false);
             //    playerRifle.SetActive(false);
             //    playerShotgun.SetActive(true);
@@ -68,18 +64,7 @@ namespace selecWeapon
 
         }
 
-        public void setPistolMunition(int munition,  int maxMunition)
-        {
-            munitions[0, 0] = munition;         
-            munitions[0, 2] = maxMunition;
-
-        }
-        public void setRifleMunition(int munition, int maxMunition)
-        {
-            munitions[1, 0] = munition;
-            munitions[1, 2] = maxMunition;
-
-        }
+       
 
     }
 }

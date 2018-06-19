@@ -372,7 +372,7 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!50 &50341960561898164
@@ -392,7 +392,7 @@ Rigidbody2D:
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!58 &58616733366255332
@@ -554,7 +554,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feetAnimator: {fileID: 95117999946457920}
   speed: 5
-  life: 0
 --- !u!114 &114149758590295570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -570,7 +569,7 @@ MonoBehaviour:
   clipEmptyPrefab: {fileID: 1957782465617374, guid: 06899371433e1834c88a10ebd8cbcd52,
     type: 2}
   weapon: {fileID: 114516708929159728}
-  state: 0
+  weaponSelector: {fileID: 114427050678836782}
 --- !u!114 &114215866605022108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -582,6 +581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca431737a9b60574492c905d7cf31207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 4671787319463100}
 --- !u!114 &114341440718426150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -597,7 +597,7 @@ MonoBehaviour:
   clipEmptyPrefab: {fileID: 1957782465617374, guid: 06899371433e1834c88a10ebd8cbcd52,
     type: 2}
   weapon: {fileID: 114796369177535866}
-  state: 0
+  weaponSelector: {fileID: 114427050678836782}
 --- !u!114 &114427050678836782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -643,7 +643,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feetAnimator: {fileID: 95791961263759248}
   speed: 5
-  life: 0
 --- !u!114 &114784847763921234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -655,6 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca431737a9b60574492c905d7cf31207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firePoint: {fileID: 4377901510886654}
 --- !u!114 &114796369177535866
 MonoBehaviour:
   m_ObjectHideFlags: 1

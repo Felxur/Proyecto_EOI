@@ -20,8 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4756544835476624}
   - component: {fileID: 212433226224848142}
-  - component: {fileID: 61295308881286472}
   - component: {fileID: 114918015033677308}
+  - component: {fileID: 61295308881286472}
   - component: {fileID: 50444594105380192}
   m_Layer: 14
   m_Name: Bullet
