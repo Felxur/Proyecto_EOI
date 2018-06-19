@@ -19,7 +19,11 @@ public class Trigger : MonoBehaviour {
 	}
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        activate = true;
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            activate = true;
+        }
+        
 
     }
 }

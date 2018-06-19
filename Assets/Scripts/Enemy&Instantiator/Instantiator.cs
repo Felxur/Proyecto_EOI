@@ -5,7 +5,6 @@ using UnityEngine;
 public class Instantiator : MonoBehaviour {
     private bool activator;
     public GameObject enemyPrefab;
-    private Rigidbody2D instantiatorRigid;
     public int quantity=1;
     [Tooltip("Segundos de Retraso entre Zombies")]
     public float delay=0f;
@@ -15,7 +14,7 @@ public class Instantiator : MonoBehaviour {
 
     
     void Start () {
-        instantiatorRigid = GetComponent<Rigidbody2D>();
+
 	}
 	
 	// Update is called once per frame
