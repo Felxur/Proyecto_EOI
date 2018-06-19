@@ -224,17 +224,35 @@ namespace playershoots
             munitions[1, 2] = maxMuni;
 
         }
-        private void OnCollisionEnter2D(Collision2D collision)
+        private void OnTriggerEnter2D(Collider2D collision)
         {
+            Destroy(collision.gameObject);
             if (collision.gameObject.CompareTag("RifleMunition"))
             {
-                munitions[1, 2] += Random.Range(10,25);
+                if (state==1)
+                {
+                    
+                    maxMunition = munitions[1, 2] += Random.Range(10, 25);
+                }
+                else
+                {
+                    
+                    munitions[1, 2] += Random.Range(10, 25);
+                }
             }
             if (collision.gameObject.CompareTag("ShotgunMunition"))
             {
-                munitions[1, 2] += Random.Range(3, 6);
+                if (state == 2)
+                {
+                    
+                    maxMunition = munitions[1, 2] += Random.Range(3, 6);
+                }
+                else
+                {
+                    munitions[1, 2] += Random.Range(3, 6);
+                }
             }
+            Destroy(collision.gameObject);
         }
-
     }
 }

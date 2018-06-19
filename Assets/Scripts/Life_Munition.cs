@@ -20,7 +20,6 @@ public class Life_Munition : MonoBehaviour {
 
 	}
 	
-	// Update is called once per frame
 	void Update () {
         
         updateMunition();
