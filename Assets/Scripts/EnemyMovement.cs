@@ -103,12 +103,7 @@ public class EnemyMovement : MonoBehaviour {
         }
 
         // Una última comprobación para evitar bugs forzando la posición inicial
-        if (target == initialPosition && distance < 0.02f)
-        {
-            transform.position = initialPosition;
-            // Y cambiamos la animación de nuevo a Idle
-            anim.SetBool("IsWalking", false);
-        }
+       
 
         // Y un debug optativo con una línea hasta el target
         Debug.DrawLine(transform.position, target, Color.green);
@@ -158,7 +153,6 @@ public class EnemyMovement : MonoBehaviour {
 
 
 
-    //   public float visionRadius;
     //   private Animator animator;
     //   public float speed;
     //   private Transform target;
