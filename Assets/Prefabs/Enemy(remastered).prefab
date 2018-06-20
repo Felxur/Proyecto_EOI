@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4421585494044170}
   - component: {fileID: 212392992442116206}
   - component: {fileID: 95356375333027898}
-  - component: {fileID: 114750394611461744}
   - component: {fileID: 61694003409790210}
   - component: {fileID: 50430355251016046}
   m_Layer: 9
@@ -162,21 +161,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114750394611461744
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1948465894241510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a5ed3e92ed52164c8eae614e3481293, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  visionRadius: 12.37
-  attackRadius: 1.93
-  speed: 4
-  enemyLife: 60
 --- !u!212 &212392992442116206
 SpriteRenderer:
   m_ObjectHideFlags: 1

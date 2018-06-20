@@ -29,7 +29,7 @@ namespace playershoots
         public static int[,] munitions = new int[,]{
             {0,15,99},//pistola municion maxima infinita
             {0, 50,100},//rifle
-            {0,5,0}//Escopeta
+            {2,5,20}//Escopeta
         };
 
 
@@ -78,9 +78,7 @@ namespace playershoots
                 munition = munitions[0, 0];
                 charger = munitions[0, 1];
                 maxMunition = munitions[0, 2];
-                //Debug.Log("municion de la pistola" + munition);
-                //Debug.Log("cargador de la pistola" + charger);
-                //Debug.Log("municion maxima de la pistola" + maxMunition);
+               
                 
             }
             if (Input.GetKeyDown(KeyCode.Alpha2))
@@ -93,31 +91,30 @@ namespace playershoots
                 }
                 else if (state == 2)
                 {
-                    //setShotgunMunition(munition, maxMunition);
+                    setShotgunMunition(munition, maxMunition);
                 }
                 state = 1;
                 munition = munitions[1, 0];
                 charger = munitions[1, 1];
                 maxMunition = munitions[1, 2];
-                //Debug.Log("municion de la rifle" + munition);
-                //Debug.Log("cargador de la rifle" + charger);
-                //Debug.Log("municion maxima del rifle" + maxMunition);
+                
             }
-            //if (Input.GetKeyDown(KeyCode.Alpha3)&& state!=2)
-            //{
-            //    state=2;
-            //    if (state == 0)
-            //    {
-            //        weaponSelector.setPistolMunition(munition, maxMunition);
-            //    }
-            //    else if (state == 1)
-            //    {
-            //        weaponSelector.setRifleMunition(munition, maxMunition);
-            //    }
-            //    munition = munitions[state, 0];
-            //    charger = munitions[state, 1];
-            //    maxMunition = munitions[state, 2];
-            //}
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                
+                if (state == 0)
+                {
+                    setPistolMunition(munition, maxMunition);
+                }
+                else if (state == 1)
+                {
+                    setRifleMunition(munition, maxMunition);
+                }
+                state = 2;
+                munition = munitions[2, 0];
+                charger = munitions[2, 1];
+                maxMunition = munitions[2, 2];
+            }
         }
 
 
@@ -183,6 +180,22 @@ namespace playershoots
                         }
                         lastShoot = Time.time;
                     }
+                }else if(Input.GetKeyDown(KeyCode.Mouse0) && state == 2 && munition > 0)
+                {
+                    weapon.shoot();
+                    moozle.SetActive(true);
+                    isShooting = true;
+                    animator.SetBool("IsShooting", true);
+                    --munition;
+                    if (isShooting == true)
+                    {
+                        AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
+                        if (info.IsName("Shoot") && info.normalizedTime >= 1F)
+                        {
+                            setIsShootingFalse();
+                        }
+                    }
+
                 }
             }
             else
@@ -222,7 +235,11 @@ namespace playershoots
         {
             munitions[1, 0] = muni;
             munitions[1, 2] = maxMuni;
-
+        }
+        public void setShotgunMunition(int muni, int maxMuni)
+        {
+            munitions[2, 0] = muni;
+            munitions[2, 2] = maxMuni;
         }
         private void OnTriggerEnter2D(Collider2D collision)
         {

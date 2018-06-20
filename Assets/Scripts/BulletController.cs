@@ -16,21 +16,7 @@ public class BulletController : MonoBehaviour {
 	
 	
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            damageBullet = 15;
-            Debug.Log("El daño ahora es"+damageBullet);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            damageBullet = 25;
-            Debug.Log("El daño ahora es" + damageBullet);
-        }
-        else if(Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            damageBullet = 10;
-            Debug.Log("El daño ahora es" + damageBullet);
-        }
+        
         transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
         currentTime += Time.deltaTime;
         if (currentTime >= destroyTime)

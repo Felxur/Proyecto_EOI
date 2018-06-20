@@ -24,7 +24,7 @@ namespace selecWeapon
             playerPistol.SetActive(true);
             playerSelect = playerPistol.transform;
             playerRifle.SetActive(false);
-            //playerShotgun.SetActive(false);
+            playerShotgun.SetActive(false);
 
         }
 
@@ -37,7 +37,7 @@ namespace selecWeapon
                 playerPistol.transform.position = playerSelect.position;
                 playerSelect = playerPistol.transform;
                 playerRifle.SetActive(false);
-                //playerShotgun.SetActive(false);
+                playerShotgun.SetActive(false);
                 playerPistol.SetActive(true);
 
             }
@@ -46,17 +46,19 @@ namespace selecWeapon
                 state = 1;
                 playerRifle.transform.position = playerSelect.position;
                 playerSelect = playerRifle.transform;
-                //playerShotgun.SetActive(false);
+                playerShotgun.SetActive(false);
                 playerPistol.SetActive(false);
                 playerRifle.SetActive(true);
             }
-            //if (Input.GetKeyDown(KeyCode.Alpha3) && state != 2)
-            //{
-            //    state = 1;
-            //    playerPistol.SetActive(false);
-            //    playerRifle.SetActive(false);
-            //    playerShotgun.SetActive(true);
-            //}
+            if (Input.GetKeyDown(KeyCode.Alpha3) && state != 2)
+            {
+                state = 2;
+                playerShotgun.transform.position = playerSelect.position;
+                playerSelect = playerShotgun.transform;
+                playerPistol.SetActive(false);
+                playerRifle.SetActive(false);
+                playerShotgun.SetActive(true);
+            }
         }
 
         void Update()
