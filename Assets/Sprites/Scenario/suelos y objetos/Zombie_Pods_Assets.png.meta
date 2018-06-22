@@ -1,0 +1,4526 @@
+fileFormatVersion: 2
+guid: 76207506c2c2ae145bd3b32b2983096a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Zombie_Pods_Assets_0
+    21300002: Zombie_Pods_Assets_1
+    21300004: Zombie_Pods_Assets_2
+    21300006: Zombie_Pods_Assets_3
+    21300008: Zombie_Pods_Assets_4
+    21300010: Zombie_Pods_Assets_5
+    21300012: Zombie_Pods_Assets_6
+    21300014: Zombie_Pods_Assets_7
+    21300016: Zombie_Pods_Assets_8
+    21300018: Zombie_Pods_Assets_9
+    21300020: Zombie_Pods_Assets_10
+    21300022: Zombie_Pods_Assets_11
+    21300024: Zombie_Pods_Assets_12
+    21300026: Zombie_Pods_Assets_13
+    21300028: Zombie_Pods_Assets_14
+    21300030: Zombie_Pods_Assets_15
+    21300032: Zombie_Pods_Assets_16
+    21300034: Zombie_Pods_Assets_17
+    21300036: Zombie_Pods_Assets_18
+    21300038: Zombie_Pods_Assets_19
+    21300040: Zombie_Pods_Assets_20
+    21300042: Zombie_Pods_Assets_21
+    21300044: Zombie_Pods_Assets_22
+    21300046: Zombie_Pods_Assets_23
+    21300048: Zombie_Pods_Assets_24
+    21300050: Zombie_Pods_Assets_25
+    21300052: Zombie_Pods_Assets_26
+    21300054: Zombie_Pods_Assets_27
+    21300056: Zombie_Pods_Assets_28
+    21300058: Zombie_Pods_Assets_29
+    21300060: Zombie_Pods_Assets_30
+    21300062: Zombie_Pods_Assets_31
+    21300064: Zombie_Pods_Assets_32
+    21300066: Zombie_Pods_Assets_33
+    21300068: Zombie_Pods_Assets_34
+    21300070: Zombie_Pods_Assets_35
+    21300072: Zombie_Pods_Assets_36
+    21300074: Zombie_Pods_Assets_37
+    21300076: Zombie_Pods_Assets_38
+    21300078: Zombie_Pods_Assets_39
+    21300080: Zombie_Pods_Assets_40
+    21300082: Zombie_Pods_Assets_41
+    21300084: Zombie_Pods_Assets_42
+    21300086: Zombie_Pods_Assets_43
+    21300088: Zombie_Pods_Assets_44
+    21300090: Zombie_Pods_Assets_45
+    21300092: Zombie_Pods_Assets_46
+    21300094: Zombie_Pods_Assets_47
+    21300096: Zombie_Pods_Assets_48
+    21300098: Zombie_Pods_Assets_49
+    21300100: Zombie_Pods_Assets_50
+    21300102: Zombie_Pods_Assets_51
+    21300104: Zombie_Pods_Assets_52
+    21300106: Zombie_Pods_Assets_53
+    21300108: Zombie_Pods_Assets_54
+    21300110: Zombie_Pods_Assets_55
+    21300112: Zombie_Pods_Assets_56
+    21300114: Zombie_Pods_Assets_57
+    21300116: Zombie_Pods_Assets_58
+    21300118: Zombie_Pods_Assets_59
+    21300120: Zombie_Pods_Assets_60
+    21300122: Zombie_Pods_Assets_61
+    21300124: Zombie_Pods_Assets_62
+    21300126: Zombie_Pods_Assets_63
+    21300128: Zombie_Pods_Assets_64
+    21300130: Zombie_Pods_Assets_65
+    21300132: Zombie_Pods_Assets_66
+    21300134: Zombie_Pods_Assets_67
+    21300136: Zombie_Pods_Assets_68
+    21300138: Zombie_Pods_Assets_69
+    21300140: Zombie_Pods_Assets_70
+    21300142: Zombie_Pods_Assets_71
+    21300144: Zombie_Pods_Assets_72
+    21300146: Zombie_Pods_Assets_73
+    21300148: Zombie_Pods_Assets_74
+    21300150: Zombie_Pods_Assets_75
+    21300152: Zombie_Pods_Assets_76
+    21300154: Zombie_Pods_Assets_77
+    21300156: Zombie_Pods_Assets_78
+    21300158: Zombie_Pods_Assets_79
+    21300160: Zombie_Pods_Assets_80
+    21300162: Zombie_Pods_Assets_81
+    21300164: Zombie_Pods_Assets_82
+    21300166: Zombie_Pods_Assets_83
+    21300168: Zombie_Pods_Assets_84
+    21300170: Zombie_Pods_Assets_85
+    21300172: Zombie_Pods_Assets_86
+    21300174: Zombie_Pods_Assets_87
+    21300176: Zombie_Pods_Assets_88
+    21300178: Zombie_Pods_Assets_89
+    21300180: Zombie_Pods_Assets_90
+    21300182: Zombie_Pods_Assets_91
+    21300184: Zombie_Pods_Assets_92
+    21300186: Zombie_Pods_Assets_93
+    21300188: Zombie_Pods_Assets_94
+    21300190: Zombie_Pods_Assets_95
+    21300192: Zombie_Pods_Assets_96
+    21300194: Zombie_Pods_Assets_97
+    21300196: Zombie_Pods_Assets_98
+    21300198: Zombie_Pods_Assets_99
+    21300200: Zombie_Pods_Assets_100
+    21300202: Zombie_Pods_Assets_101
+    21300204: Zombie_Pods_Assets_102
+    21300206: Zombie_Pods_Assets_103
+    21300208: Zombie_Pods_Assets_104
+    21300210: Zombie_Pods_Assets_105
+    21300212: Zombie_Pods_Assets_106
+    21300214: Zombie_Pods_Assets_107
+    21300216: Zombie_Pods_Assets_108
+    21300218: Zombie_Pods_Assets_109
+    21300220: Zombie_Pods_Assets_110
+    21300222: Zombie_Pods_Assets_111
+    21300224: Zombie_Pods_Assets_112
+    21300226: Zombie_Pods_Assets_113
+    21300228: Zombie_Pods_Assets_114
+    21300230: Zombie_Pods_Assets_115
+    21300232: Zombie_Pods_Assets_116
+    21300234: Zombie_Pods_Assets_117
+    21300236: Zombie_Pods_Assets_118
+    21300238: Zombie_Pods_Assets_119
+    21300240: Zombie_Pods_Assets_120
+    21300242: Zombie_Pods_Assets_121
+    21300244: Zombie_Pods_Assets_122
+    21300246: Zombie_Pods_Assets_123
+    21300248: Zombie_Pods_Assets_124
+    21300250: Zombie_Pods_Assets_125
+    21300252: Zombie_Pods_Assets_126
+    21300254: Zombie_Pods_Assets_127
+    21300256: Zombie_Pods_Assets_128
+    21300258: Zombie_Pods_Assets_129
+    21300260: Zombie_Pods_Assets_130
+    21300262: Zombie_Pods_Assets_131
+    21300264: Zombie_Pods_Assets_132
+    21300266: Zombie_Pods_Assets_133
+    21300268: Zombie_Pods_Assets_134
+    21300270: Zombie_Pods_Assets_135
+    21300272: Zombie_Pods_Assets_136
+    21300274: Zombie_Pods_Assets_137
+    21300276: Zombie_Pods_Assets_138
+    21300278: Zombie_Pods_Assets_139
+    21300280: Zombie_Pods_Assets_140
+    21300282: Zombie_Pods_Assets_141
+    21300284: Zombie_Pods_Assets_142
+    21300286: Zombie_Pods_Assets_143
+    21300288: Zombie_Pods_Assets_144
+    21300290: Zombie_Pods_Assets_145
+    21300292: Zombie_Pods_Assets_146
+    21300294: Zombie_Pods_Assets_147
+    21300296: Zombie_Pods_Assets_148
+    21300298: Zombie_Pods_Assets_149
+    21300300: Zombie_Pods_Assets_150
+    21300302: Zombie_Pods_Assets_151
+    21300304: Zombie_Pods_Assets_152
+    21300306: Zombie_Pods_Assets_153
+    21300308: Zombie_Pods_Assets_154
+    21300310: Zombie_Pods_Assets_155
+    21300312: Zombie_Pods_Assets_156
+    21300314: Zombie_Pods_Assets_157
+    21300316: Zombie_Pods_Assets_158
+    21300318: Zombie_Pods_Assets_159
+    21300320: Zombie_Pods_Assets_160
+    21300322: Zombie_Pods_Assets_161
+    21300324: Zombie_Pods_Assets_162
+    21300326: Zombie_Pods_Assets_163
+    21300328: Zombie_Pods_Assets_164
+    21300330: Zombie_Pods_Assets_165
+    21300332: Zombie_Pods_Assets_166
+    21300334: Zombie_Pods_Assets_167
+    21300336: Zombie_Pods_Assets_168
+    21300338: Zombie_Pods_Assets_169
+    21300340: Zombie_Pods_Assets_170
+    21300342: Zombie_Pods_Assets_171
+    21300344: Zombie_Pods_Assets_172
+    21300346: Zombie_Pods_Assets_173
+    21300348: Zombie_Pods_Assets_174
+    21300350: Zombie_Pods_Assets_175
+    21300352: Zombie_Pods_Assets_176
+    21300354: Zombie_Pods_Assets_177
+    21300356: Zombie_Pods_Assets_178
+    21300358: Zombie_Pods_Assets_179
+    21300360: Zombie_Pods_Assets_180
+    21300362: Zombie_Pods_Assets_181
+    21300364: Zombie_Pods_Assets_182
+    21300366: Zombie_Pods_Assets_183
+    21300368: Zombie_Pods_Assets_184
+    21300370: Zombie_Pods_Assets_185
+    21300372: Zombie_Pods_Assets_186
+    21300374: Zombie_Pods_Assets_187
+    21300376: Zombie_Pods_Assets_188
+    21300378: Zombie_Pods_Assets_189
+    21300380: Zombie_Pods_Assets_190
+    21300382: Zombie_Pods_Assets_191
+    21300384: Zombie_Pods_Assets_192
+    21300386: Zombie_Pods_Assets_193
+    21300388: Zombie_Pods_Assets_194
+    21300390: Zombie_Pods_Assets_195
+    21300392: Zombie_Pods_Assets_196
+    21300394: Zombie_Pods_Assets_197
+    21300396: Zombie_Pods_Assets_198
+    21300398: Zombie_Pods_Assets_199
+    21300400: Zombie_Pods_Assets_200
+    21300402: Zombie_Pods_Assets_201
+    21300404: Zombie_Pods_Assets_202
+    21300406: Zombie_Pods_Assets_203
+    21300408: Zombie_Pods_Assets_204
+    21300410: Zombie_Pods_Assets_205
+    21300412: Zombie_Pods_Assets_206
+    21300414: Zombie_Pods_Assets_207
+    21300416: Zombie_Pods_Assets_208
+    21300418: Zombie_Pods_Assets_209
+    21300420: Zombie_Pods_Assets_210
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1033
+        width: 705
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f875e47c2134547b0762f9b59d7541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_1
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1148
+        width: 416
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135571010359255498505dbfc862e837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_2
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1342
+        width: 247
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da879c7719bbf864994718f350f28ae9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_3
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1486
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f9c521d2e3c9e4ab652d22f1b63ac0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_4
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1249
+        width: 247
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d934339c6ad5b3e4ba54887c2a42a6a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_5
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1465
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d38ea98c1b6b444b6cc298e660eecb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_6
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1452
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b1ac5e777766d4fb75cb1006bad42b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_7
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1434
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49266c1913ca65e41b97de2ed5ef2753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_8
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1428
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b605a5ebd49055b47891890c990f170b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_9
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14d59c71f08a5c429c427d13d1907dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_10
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1414
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e5ea32190bd6b468f6dd340d6f452f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_11
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1388
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e04c98dffe1b54da1c415ff3df4b79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_12
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1399
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd8d8e03dd9a7342ae794fb110a8e8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_13
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1386
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00c402632431574cb47cea25b0abfac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_14
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1040
+        width: 251
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb7c01b618962e4e8c4249ff995f680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_15
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1259
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16dc5f5d3c1b8145a4c037590b71b19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_16
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 1251
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfab2f3544ed51b46aa6c57c1b86c430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_17
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1256
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e679cf100e7f284a871c39913a3c58e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_18
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1244
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d028bbe9e4d156e4db659ca85fa8c965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_19
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1055
+        width: 207
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1210f16c936047b4fbe87f5414135115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_20
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 1174
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98b3fbcf9740ff49a3beb9ac8e4e39d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_21
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1154
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e109f559d982f44f8738152beb5701f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_22
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1126
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d016a275ad37942438105685d947ede7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_23
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1121
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248598223da1f314097ca0c748eefd53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_24
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1100
+        width: 104
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdb1c86a54e0a441a8946accd5c3d40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_25
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1127
+        width: 151
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47941f36582c764bb1a91e2abc9f312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_26
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1064
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cb5e0b930e5914dbb71848701a8cfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_27
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1084
+        width: 103
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8e85d2a813be44b82ad72860d07593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_28
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1105
+        width: 131
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec6b418bcd5c854aa9021024f2dd1dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_29
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1063
+        width: 17
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32391beb032db94dba74a7280110361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_30
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1090
+        width: 52
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6775f599e003c3d468d8621cf2a8c573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_31
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1084
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99548372e38147041aef79f65ef23827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_32
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1067
+        width: 36
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bc2936fdd37a841b23384fa37cb2be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_33
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1058
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3297a3eaeffa864479566123471d8138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_34
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1060
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea147ebfe3ad4d40b8fe501cfe177b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_35
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1069
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0483dd7d1f0da014e836c6c893d081ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_36
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1065
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7027d7ef8401074484c2be9de309879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_37
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1062
+        width: 166
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e5c7822b10f7946852cacff6f938ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_38
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1058
+        width: 55
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1df7e74ada21f14d84aaabd3157c12d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_39
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1055
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1841700c2a8354c93bc5d241ac7aa8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_40
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1055
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ccd8a074d849f45a77438ab4c9bed4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_41
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1040
+        width: 110
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a638982d54362c4aadd997e6b8a789a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_42
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1039
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e308cc1ba1bc543b6c79c6190c4212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_43
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1039
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c3650953f716048b7d315f432bbfe5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_44
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1037
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb57f204101aec04eaf0f3ec48f2ce5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_45
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1047
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bc34c0c1c9e644eae8472193df5441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_46
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1042
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c50cf3a2a38ad84c9816217990cd139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_47
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1050
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b25d2fa0582934f8e242cf727e7089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_48
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1038
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef79bfbcc942a54bb6967bca7545164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_49
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1041
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa3d8c3b8f509841a27d77633d6b7b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_50
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 876
+        width: 168
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd3c9cc2f0e00446a1c78f89963e593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_51
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1039
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b848a5f9ccccb7f45a993d52c3e1bedc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_52
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1042
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18b6c43b74d5f244a1eecb3e7c0254e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_53
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1043
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d251b491b4f5084fb970d35ed6afa1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_54
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1045
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc85bfac1f1094429a70109585e07b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_55
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1035
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadd95ec91d43e84788ebe180182ceb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 644
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7c709aad0718f41a75e1ee273fb2fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_57
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 753
+        width: 255
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b08202b6c7fe644da99792a76b9318a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_58
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 749
+        width: 245
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273893a6b00cf7d4bb01086843f24200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_59
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 850
+        width: 210
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd7ae6c9084a104bbac939d078a7fce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_60
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1016
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c785cc35d29f35a4fa95f2e3891d638e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_61
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1004
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdf35575c4027344aec72fc23a6cc74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_62
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1003
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb02943936f3944eabfea910bee8691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_63
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 991
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c39adc2dcdf41a489a3fa3ed0a41057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_64
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 995
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e92664bcf48f2e499e17e04aa92581b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_65
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 980
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334d5c8501f710d42b458f8ab7828423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_66
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 965
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2ca8df61ec33746a87add09751c01d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_67
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 974
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d73efe28f8fbc34b80c6a25173d3282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_68
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 958
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c1d86b7eee046469e682abade6bc5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_69
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 968
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a12e54aed6fa144a99905705b391eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_70
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 948
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da29fbaefcc06694dbde10130ce2dcb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_71
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 952
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02faa1a0071fdc419177724bc499034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_72
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 892
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c831534def012b47bebd753f55fb6fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_73
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 905
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a404b4308ec845e4c814925fec405c76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_74
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 887
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103b4a9439c8ff543862b5b55e68fb71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_75
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 643
+        width: 204
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ae1450d2506a54987adc06118d0f22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_76
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 820
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaac58d312ea81045b08e8d279a81903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_77
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 831
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0687451c3fac9e3438573ee437901647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_78
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 812
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8659f67f42bf2294a8583534739cf05d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_79
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 647
+        width: 106
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d0743a033f8744ebf3ca0383e8a501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_80
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 787
+        width: 62
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33db3fa50659fe842b9f4458c5e8b7a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_81
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 795
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d438a4b96ca9b1941a748b4ed8628a48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_82
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 702
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545757f2758443344bf77bf2aee25241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_83
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 772
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8946778fdd17e0946ab23dac9d3dd7d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_84
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 775
+        width: 58
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741ce182f41854a4c88ab3e085e9f894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_85
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 564
+        width: 219
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1ba3cf62d719d43b188496d0e86217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_86
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 742
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bda49705bbc6348b9d888b66666453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_87
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 741
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690ec7c2152f3dd48a9a17240d8e27a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_88
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 744
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a89eaea8b78934b98f3dd5a1edfd71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_89
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 735
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccd81ee1b8b19449ad444d3186af16f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_90
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 735
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2247b1893f722ef4197c89492203d1fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_91
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 737
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719d13ce4acdc224388545aa8252a00e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_92
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 702
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1621bd2ddaf8542b64105cef4d404c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_93
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 730
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbad7f0aa1db7464e9d80a3b6ec1956f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_94
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 592
+        width: 185
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262e019267a442140b6242779d35efea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_95
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 646
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc1917bc9f96594c9de1d0af8791c13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_96
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 566
+        width: 152
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea0ba6ffe272c24b9643d8f45c45b36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_97
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 599
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c9f1c2719fb6a43aa9d29578534d62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_98
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 411
+        width: 127
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55406c7a1a1956d44a6d7eaedf57fdc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_99
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 528
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308993f2f52f5924a9313e962252bd0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_100
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 639
+        width: 47
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9f80efafcf03d4097a796dab7c1259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_101
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 577
+        width: 311
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4b3b748b14e6846b83211c8cd91f00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_102
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 611
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f195e48d19ef148a6bfeda8623b73c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_103
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 603
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1976c778c44de6842b49ef7f24616ce0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_104
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 608
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ee578acb9c626409645abbfb967626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_105
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 610
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7415f104738f654439873845468a1495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_106
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 615
+        width: 65
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16af7d8597b424248899716000e808de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_107
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 607
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8deb0c2aae0090e46b510ef98803b962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_108
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 512
+        width: 86
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f606c341fe9b54695c05bddb241031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_109
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 581
+        width: 176
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e68a577295820742b907ddf4f019080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_110
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 581
+        width: 106
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbab97bb0f6d1b4caaeec6858d7496f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_111
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 585
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf5175cee24f4a44ad13125133f421d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_112
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 536
+        width: 187
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522071778eebb0b40b873378e9632426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_113
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 565
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e26c8a7007db8a45a9d811700993f72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 533
+        width: 257
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3093230acde25e47a57c482e236b9f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_115
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 556
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57bd76fa9427394d811d9c7e681a867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_116
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 557
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e89a0a227be3642b70aa74f3f4e9b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_117
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 556
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc17fb3ff73d1b4687f0fa1d24f57c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_118
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 553
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f6e5692554fa041a8478b5f5dfce7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_119
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 553
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5914cba474e093c4680d6d82e694ad58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_120
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 545
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bc6d680ea16dc43919eadb5d414d35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_121
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 330
+        width: 131
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4e51c8907385d4a85ca5198ce1b8a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_122
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 330
+        width: 126
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e749a543af17aa4089b4f5aa7220de5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_123
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 541
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c31112106480604a8a00815cc19ece4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_124
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 454
+        width: 103
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2276d7c4c047545ad1016413e509cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_125
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 468
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb29d3c33d931614aa2ef7080f805fef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_126
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 548
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a633f17b74921408a5819c7342cd71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_127
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 313
+        width: 145
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a937251fc37ef4e8ff1518a1f93989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_128
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 527
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d024263a31141414eb6445cc7c5c0bbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_129
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 530
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c50b95cb90e14d419ca93c8ed0824df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_130
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 527
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b01cbf3c230bc549a1fff4b321a846c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_131
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 528
+        width: 63
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4468ffde273e944b24b4d20f6e4565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_132
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 527
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc36e5b1e54ed0f42a84e2ecddd9ca9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_133
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 533
+        width: 45
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c632d92eab33c4c8a18874189b0447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_134
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 386
+        width: 148
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47009616c7195a54eb8864a64d7eb027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_135
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 298
+        width: 139
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c361d624ea0bdd42a0b67819aa44757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_136
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 401
+        width: 130
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c128c5b15c6cb6a4d85a9d4cbddc5065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_137
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 304
+        width: 126
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fd24b69f7fcdb4692148717eabf915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_138
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 304
+        width: 126
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d202c9aa499eba149b87b302a73eae77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_139
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 422
+        width: 108
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1d29459b9b84e449a6a585f931bc60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_140
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 421
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962a049de1cf477469f8c596d76f1db5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_141
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 358
+        width: 180
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1e5f39ec8a3084fabcb1314d6b85ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_142
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 345
+        width: 83
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95bef4888674d649a15288898ae4e0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_143
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 237
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae66b42630f215b4ca595ed94d7250ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_144
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 184
+        width: 131
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f743c7ea5a571747842037230daf1f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_145
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 379
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0ff954de2304641ae9da097e957067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_146
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 290
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a7554f434532046a97ae2eee0180cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_147
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 93
+        width: 89
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83511e16b9533b64b85c8435db98fd93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_148
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 98
+        width: 126
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282c3a9a6fec5ed4ca44f5bd492b5ef6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_149
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 101
+        width: 126
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7529e63d0275bb54b8af7160dc629f3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_150
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 190
+        width: 83
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c120efac336146b4ba93f64a3c017d84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_151
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 135
+        width: 157
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527e2cbc6341c83498f2be868fdc1759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_152
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 192
+        width: 55
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692537a9badd321479484b6acfd7585d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_153
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 312
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7062b44083cc64c9497a4382f1a3eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_154
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 86
+        width: 145
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49d8faac767c064aa59dce011d9dc43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_155
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 161
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caae8f66eedd4a148b35d5dbd4dc41a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_156
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 75
+        width: 126
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9915f8d23698744a9d5cdc305cd1a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_157
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 180
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e1e58ad708d574980b3ad5b9bd0d1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_158
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 191
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e470fc98a4b2cb43a351ff20dda0408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_159
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 202
+        width: 42
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5f2b57a90bc7749a8388d86a9d320c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_160
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 274
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c02db97130f3e942aec96e16b441859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_161
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 8
+        width: 139
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec46d8e2cd0a4f458360bc32398430b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_162
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 152
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d5b99d422ed904eb1ec677a8aadee2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_163
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 136
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebacfa9b722691a4bb98402781e06f46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_164
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 133
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aff5cf397c6ca340a0c97e45518abae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_165
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 149
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aca6b3bdc0b6de419638dbf6a613def
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_166
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 83
+        width: 105
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3723ec1d6bbe5b14a8db70a09fd581b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_167
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 66
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57ffe30138b8344e8976aaab2556a9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_168
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 118
+        width: 59
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0e1bed0f6a0444d8f447bbee195295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_169
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 29
+        width: 73
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8166b7ba48d3e14ab83a3872bdc6e2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_170
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 31
+        width: 66
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb03a36d5469ea44fbd3b681c32db981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_171
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 120
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d9b1e48e05c9f4eb267f288f87fcfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_172
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 137
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac29a74b8f6bf545942b53f1a65b77c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_173
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 136
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8289f321fda07f4f8f1328f33d990f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_174
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 119
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afcf556254eee6428c6cbf749d7d3ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_175
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 104
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5adbcd19f1f0c4380c18c420a1d54f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_176
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 123
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb6d688746aad642b323f46050421f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_177
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 98
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5d807b02e615940ac43301370d942f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_178
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 120
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbc023fc263e234eaf6548ed1bd9029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_179
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 75
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7a2f0a2adb6b34e862dcdeb527a740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_180
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 64
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9092fac6c8725b240ab290a8256a6911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_181
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 108
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07563fd4bea8cb64096c77c8b083754a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_182
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 104
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d233340f6b8e716408015b488e16bcd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_183
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 104
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffba9c12a13e04544af06d687fe3f0b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_184
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 70
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc986405f2164eb498fe7192e8ac5aef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_185
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 87
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c67fd2a7b718a428b81042f9dbca19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_186
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 69
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4df1691e73a9bc448671cf0d2d75d70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_187
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 91
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7b7f087d6aa104cba62026b9168ba1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_188
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 83
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b15e91898737b48825f69323afc77c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_189
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 8
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe07b2e097c93864984172cfcd62bd9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_190
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 15
+        width: 96
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac088e5dc91fed64e9987d3945ba6753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_191
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 3
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c9b3da1ab53eb46915677704bfe6dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_192
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83668c28161894e49888e72955747b74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_193
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 31
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e063d2d84107b4898c435402aa042f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_194
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 53
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37363626bc727645a04fee9621c919e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_195
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 42
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8e89faf130bdc41a445c3171a5b052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_196
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 15
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473297c55828fcb48b5b2535e8b2e2cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_197
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 8
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921408152d2565a4fa85302e51d88fcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_198
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 46
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79514533e2292524db7e58c34c726b49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_199
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 9
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d224fa66a91facf46baa7fe6ee5a9608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_200
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 3
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee638af18a2ce544d89c32e5692ed354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_201
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 7
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24d8156e859b2f47a45178e8823c8b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_202
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 8
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089f4584740f131498f9dc933ec0349c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_203
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 6
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ad0228624c2ff4db30ac3d37cffec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_204
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 8
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575ce6fb07568c44b8c0cc81934d138c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_205
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 35
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4d88d49b9dbe84a8dc00ddf5d31799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_206
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 40
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4218088c3164d44eb5231612632be39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_207
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 28
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebb26d288d1b8645859bfb575f2fc2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_208
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 4
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a11e9a67db1a9b44b1eb4ae2b410950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_209
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0506a0656a875f41a3e213304212e06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Pods_Assets_210
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 15
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0196368a010d16f4480ea4932fc4d81b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 54b09c218511e0243b4c505a1ce3d69c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

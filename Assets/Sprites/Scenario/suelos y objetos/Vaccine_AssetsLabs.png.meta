@@ -1,0 +1,1901 @@
+fileFormatVersion: 2
+guid: d2ebd6de0c1029745ac35b2ac15e3a9a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Vaccine_AssetsLabs_0
+    21300002: Vaccine_AssetsLabs_1
+    21300004: Vaccine_AssetsLabs_2
+    21300006: Vaccine_AssetsLabs_3
+    21300008: Vaccine_AssetsLabs_4
+    21300010: Vaccine_AssetsLabs_5
+    21300012: Vaccine_AssetsLabs_6
+    21300014: Vaccine_AssetsLabs_7
+    21300016: Vaccine_AssetsLabs_8
+    21300018: Vaccine_AssetsLabs_9
+    21300020: Vaccine_AssetsLabs_10
+    21300022: Vaccine_AssetsLabs_11
+    21300024: Vaccine_AssetsLabs_12
+    21300026: Vaccine_AssetsLabs_13
+    21300028: Vaccine_AssetsLabs_14
+    21300030: Vaccine_AssetsLabs_15
+    21300032: Vaccine_AssetsLabs_16
+    21300034: Vaccine_AssetsLabs_17
+    21300036: Vaccine_AssetsLabs_18
+    21300038: Vaccine_AssetsLabs_19
+    21300040: Vaccine_AssetsLabs_20
+    21300042: Vaccine_AssetsLabs_21
+    21300044: Vaccine_AssetsLabs_22
+    21300046: Vaccine_AssetsLabs_23
+    21300048: Vaccine_AssetsLabs_24
+    21300050: Vaccine_AssetsLabs_25
+    21300052: Vaccine_AssetsLabs_26
+    21300054: Vaccine_AssetsLabs_27
+    21300056: Vaccine_AssetsLabs_28
+    21300058: Vaccine_AssetsLabs_29
+    21300060: Vaccine_AssetsLabs_30
+    21300062: Vaccine_AssetsLabs_31
+    21300064: Vaccine_AssetsLabs_32
+    21300066: Vaccine_AssetsLabs_33
+    21300068: Vaccine_AssetsLabs_34
+    21300070: Vaccine_AssetsLabs_35
+    21300072: Vaccine_AssetsLabs_36
+    21300074: Vaccine_AssetsLabs_37
+    21300076: Vaccine_AssetsLabs_38
+    21300078: Vaccine_AssetsLabs_39
+    21300080: Vaccine_AssetsLabs_40
+    21300082: Vaccine_AssetsLabs_41
+    21300084: Vaccine_AssetsLabs_42
+    21300086: Vaccine_AssetsLabs_43
+    21300088: Vaccine_AssetsLabs_44
+    21300090: Vaccine_AssetsLabs_45
+    21300092: Vaccine_AssetsLabs_46
+    21300094: Vaccine_AssetsLabs_47
+    21300096: Vaccine_AssetsLabs_48
+    21300098: Vaccine_AssetsLabs_49
+    21300100: Vaccine_AssetsLabs_50
+    21300102: Vaccine_AssetsLabs_51
+    21300104: Vaccine_AssetsLabs_52
+    21300106: Vaccine_AssetsLabs_53
+    21300108: Vaccine_AssetsLabs_54
+    21300110: Vaccine_AssetsLabs_55
+    21300112: Vaccine_AssetsLabs_56
+    21300114: Vaccine_AssetsLabs_57
+    21300116: Vaccine_AssetsLabs_58
+    21300118: Vaccine_AssetsLabs_59
+    21300120: Vaccine_AssetsLabs_60
+    21300122: Vaccine_AssetsLabs_61
+    21300124: Vaccine_AssetsLabs_62
+    21300126: Vaccine_AssetsLabs_63
+    21300128: Vaccine_AssetsLabs_64
+    21300130: Vaccine_AssetsLabs_65
+    21300132: Vaccine_AssetsLabs_66
+    21300134: Vaccine_AssetsLabs_67
+    21300136: Vaccine_AssetsLabs_68
+    21300138: Vaccine_AssetsLabs_69
+    21300140: Vaccine_AssetsLabs_70
+    21300142: Vaccine_AssetsLabs_71
+    21300144: Vaccine_AssetsLabs_72
+    21300146: Vaccine_AssetsLabs_73
+    21300148: Vaccine_AssetsLabs_74
+    21300150: Vaccine_AssetsLabs_75
+    21300152: Vaccine_AssetsLabs_76
+    21300154: Vaccine_AssetsLabs_77
+    21300156: Vaccine_AssetsLabs_78
+    21300158: Vaccine_AssetsLabs_79
+    21300160: Vaccine_AssetsLabs_80
+    21300162: Vaccine_AssetsLabs_81
+    21300164: Vaccine_AssetsLabs_82
+    21300166: Vaccine_AssetsLabs_83
+    21300168: Vaccine_AssetsLabs_84
+    21300170: Vaccine_AssetsLabs_85
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 607
+        width: 303
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0825817bb74f34cafd6f7a0edd1cba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 534
+        width: 292
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b2b70fccd6f0b47adfc20cf370c70f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 637
+        width: 253
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790ca615bca81bd45ada3aa61a49dad2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_3
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 923
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7099bb2c9bc9831458cf5e207f9e584a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_4
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 644
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d0108cf7248494ab0fe4c674a43bcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_5
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 639
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66060147b85f154a96615b54234a4e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_6
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 646
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9bf7db18fae8b4783389a0b0e63e58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_7
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 632
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d077d166bb12743bc4488a65111857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 281
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7db56435f6891e44b235cc6f3610b5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_9
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 563
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c662b297691c7a149b9fc6a8947dac7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 403
+        width: 145
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098ba28353938664faf0801763040361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_11
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 436
+        width: 111
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbc7f515bed7f44fab4e4b2aa4fd9e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_12
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 549
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8647c5b8fe21142a6bc2d381221a63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_13
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 538
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8406a5323a36ba84da9859e863154b03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 537
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd88c032c24beb4ead36aff1b02c7ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_15
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 305
+        width: 148
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776e2b2737456e44fada7d39505c8b6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_16
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 305
+        width: 145
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e822b8c16007b41aecc896fc5634e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 495
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d199bd89f2f912549b615e3531822e8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_18
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 452
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52221b2bd760e14aa175c39377a0196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_19
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 484
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30941baaf33eb448bf236b3a26d5cde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_20
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 411
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bf14b3bc3c1bf46911aa6e6d6f634b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_21
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 404
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334ea6d860afec442a805b680814b604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_22
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 408
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1331c7f954b0be43bb3ec39d4894b9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_23
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 421
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e106bf98932c69748b08a3ac24b52eba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_24
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 403
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a7a247cd193e348b82221387b54cc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_25
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 293
+        width: 24
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4a19dd2109368408121dcef95dd8d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_26
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 403
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4bba060cc05e9448c1d528bed6eed9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 317
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc2a36f65d9b27449da4b9854150ab6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 308
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b299daa004c2f47bc50f17ea040e70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_29
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 314
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a9d7b3c5f4d7b47a1fe4800cc4d160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_30
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 171
+        width: 130
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc28647a925e7340853a33e43842633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_31
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 171
+        width: 130
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb55e7fea1820c14abe6f9df605403f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 148
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e65ff4b5ae10ef4d854757b08d80d88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 300
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a380cc64a252fa543bb3ada6f18fb58b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_34
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 155
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc34302d28d0034c8a3d6f687ada45e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_35
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 73
+        width: 127
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3063460ab6e8184eb5d2184799bb8c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_36
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 73
+        width: 130
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba16e6ac1a5a8740a3e479205ebda08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_37
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 237
+        width: 18
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce03d3f9ffcac7749b8c837cdbfeb01b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_38
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 186
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98237190290f2724da9041c38108b188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_39
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 52
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50ac466ddfca524abc8b863f82e0879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_40
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 8
+        width: 63
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb8b2076866b1c4c884c77d7870eb24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_41
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1
+        width: 105
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df22355d65aa5e42aaf091ab77cd814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_42
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 61
+        width: 68
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e174f9cea05b7614ba1141c3355a3214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_43
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 37
+        width: 64
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b3723fa06cf7a4da6776a5f9d4bcd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_44
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 102
+        width: 17
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05ff49a6334aeb4c9cf1fd3c0ba7bc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_45
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 76
+        width: 21
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdcb3324fed240439e5e8e33ea57343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_46
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 84
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b091eef67b5f78843b5acd3054c07020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 108
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed752e5f66dee94f87359ab204967b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_48
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 16
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf9071d5d11f5a448fceda584d1bd77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_49
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 54
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7919fd137aae3504b871437afca360a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_50
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 19
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4982a41175cf14945bdbc6f82a063978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_51
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4716e9b6c84bb0341ac1798851e6b95c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_52
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 8
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca85cb408f0d63e40895a102cb679c39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_53
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 13
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45c6f11f6d8c704d973c11526b08c4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_54
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 14
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b019f1d1618511f40a684e18a1d33b8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_55
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 16
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3525e87fe67769442901b3594a415106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_56
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 17
+        width: 19
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7a34cbf9efd4a4892e00754b3e4c97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_57
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 19
+        width: 19
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ee8d093396b214ebe5a1e345de65cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_58
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 26
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521e1f110fc5d254b91fd5e24b89d519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_59
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 27
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9a479eb53fdce4d9b7d213a2db13a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_60
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 28
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b368dd6a6c336f64d9dee66c4efdc099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_61
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 38
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc154224f977517469b97884447ad7fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_62
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 20
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e514148a8a1bed24bb1af54c6adb397e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_63
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 5
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0786b04fe46ff4fa013e0acb942ba8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_64
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 8
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5e524bc5b4b0444984b7cb65ca86ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_65
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 39
+        width: 17
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f75bff857685840a676cf9674f6b52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47627c3a8cfc8ac40a19b84ff027ef49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_67
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 8
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c975e80538d955c4b9c7321ccaedc1ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_68
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 4
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60862f2e5c3b5194b8e12b9f524a9629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_69
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 12
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afe12f1ca5e02542aaa033025a21770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_70
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 32
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d3b0468ad1a41489be350505dcf7b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_71
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548806a8bf219644bbea71f511288d90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_72
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc8d03ffe961444d977fdafda037cb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_73
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 6
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3d50ab3dbe3034e981ca0638c4079f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e0aeafa59aba244a529a1c82c86a5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_75
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f468b089c571a3419f11a254b7352d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a626e8ef47d21344e83cb930a6c74518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d20cf72d35741488741c6677770ab4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_78
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bab57b7d66d8dc40ac38d88b93b71cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_79
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 4
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22fd00e79a32984c8514d42d6d29f61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_80
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2264e17ed3f80e948b31dc9f250bc3e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_81
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741d92284bbbc844b9f2fa7a216a94ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_82
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45351aa807c0eb44684dfd9577cbfea2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_83
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 2
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8409586fd6e2af04da61d1142c377c1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_84
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55655ace9f6c38c4ba9fb0c6e25a8305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaccine_AssetsLabs_85
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e1525cb3f47544c8e669e6749a497a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1dba83475f88ee2428f1d30ec97d2ebf
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
