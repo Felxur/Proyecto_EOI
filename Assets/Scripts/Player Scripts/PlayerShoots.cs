@@ -261,6 +261,10 @@ namespace playershoots
                 }
                 Destroy(collision.gameObject);
             }
+            if (collision.gameObject.CompareTag("MisionObject"))
+            {
+                Destroy(collision.gameObject);
+            }
 
         }
         
