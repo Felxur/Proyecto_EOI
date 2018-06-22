@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour {
     public float speed=5f;
     private int life=100;
     int EnemyDamage;
+
     
     
     
@@ -54,6 +55,11 @@ public class PlayerController : MonoBehaviour {
             life -=EnemyDamage;
             Life_Munition.life = life;
         }
+        if (collision.tag.Equals("Health"))
+        {
+            Life_Munition.life += 15;
+            life += 15;
+            Destroy(collision.gameObject);
+        }
     }
-
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using playershoots;
 
 public class EnemyMovement : MonoBehaviour {
     private Animator animator;
@@ -31,7 +32,7 @@ public class EnemyMovement : MonoBehaviour {
     void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3))
+        if (PlayerShoots.isReloading==false && (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3)))
         {
             target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         }
@@ -55,14 +56,12 @@ public class EnemyMovement : MonoBehaviour {
             if (isAttacking == true)
             {
                 AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
-                if (info.IsName("Attack") && info.normalizedTime >= 1F /*&& Vector2.Distance(transform.position, target.position) > stopingDistance*/)
+                if (info.IsName("Attack") && info.normalizedTime >= 1F)
                 {
                     setIsAttackingFalse();
                 }
             }
-
         }
-        // Debug.Log("el daño es" + bulletDamage);
     }
     void setIsAttackingFalse()
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletController : MonoBehaviour {
-    public Rigidbody2D myrb;
+    
     public int moveSpeed=50;
     float currentTime;
     public float destroyTime = 2f;
@@ -27,7 +27,6 @@ public class BulletController : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }

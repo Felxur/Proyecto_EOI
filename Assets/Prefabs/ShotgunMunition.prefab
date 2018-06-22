@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4663599497435414}
   - component: {fileID: 212864327253116052}
   - component: {fileID: 61905862835785074}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ShotgunMunition
   m_TagString: ShotgunMunition
   m_Icon: {fileID: 0}
