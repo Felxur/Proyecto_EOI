@@ -9,7 +9,7 @@ namespace shooter
     {
         public Transform firePoint;
         public BulletController bulletPrefab;
-        public GameObject bulletshotgun;
+        
         
 
 
@@ -33,29 +33,17 @@ namespace shooter
         //}
         public void shotgunShoot()
         {
-
-            //GameObject bullet1 = (GameObject)Instantiate(bulletshotgun);
-            //bullet1.transform.position = firePoint.transform.position;
-
-            //GameObject bullet2 = (GameObject)Instantiate(bulletshotgun);
-            //bullet2.transform.position = firePoint.transform.position;
-
-            //Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(0,0,6f));
-            //Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, 3f));
-            //Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, 0));
-            //Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, -3f));
-            //Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, -6f));
             BulletController temp;
             temp = Instantiate(bulletPrefab);
             temp.transform.position = firePoint.transform.position;
             temp.transform.rotation = firePoint.rotation;
-            //temp.SetBullet(firePoint.right);
+            
 
             temp = Instantiate(bulletPrefab);
             temp.transform.position = firePoint.transform.position;
             temp.transform.rotation = firePoint.rotation;
             temp.transform.Rotate(new Vector3(0,0,-12f));
-            //temp.SetBullet(firePoint.right * Mathf.Cos(30));
+            
 
             temp = Instantiate(bulletPrefab);
             temp.transform.position = firePoint.transform.position;

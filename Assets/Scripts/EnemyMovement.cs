@@ -11,9 +11,9 @@ public class EnemyMovement : MonoBehaviour {
     private bool isAttacking = false;
     public static int damage = 20;
     public int enemyLife = 60;
-    public int bulletPistolDamage = 15;
-    public int bulletRifleDamage = 10;
-    public int bulletShotgunDamage = 8;
+    public int bulletPistolDamage = 8;
+    public int bulletRifleDamage = 17;
+    public int bulletShotgunDamage = 15;
 
 
 

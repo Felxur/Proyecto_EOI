@@ -13,6 +13,7 @@ TagManager:
   - ShotgunMunition
   - Health
   - Armor
+  - MisionObject
   layers:
   - Default
   - TransparentFX
