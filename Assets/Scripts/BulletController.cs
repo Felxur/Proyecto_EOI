@@ -8,16 +8,27 @@ public class BulletController : MonoBehaviour {
     float currentTime;
     public float destroyTime = 2f;
     public static int damageBullet=15;
-
+    Vector3 bulletDirection;
 
     void Start () {
     
     }
+
+    
+    public void SetBullet(Vector3 direction)
+    {
+        bulletDirection = direction;
+        Debug.Log(direction);
+    }
 	
 	
 	void Update () {
-        
-        transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
+
+        transform.position += transform.right * Time.deltaTime * moveSpeed;
+        //transform.Translate(bulletDirection * Time.deltaTime * moveSpeed);
+
+
+        //transform.Translate(Vector3.right * Time.deltaTime * moveSpeed); original
         currentTime += Time.deltaTime;
         if (currentTime >= destroyTime)
         {

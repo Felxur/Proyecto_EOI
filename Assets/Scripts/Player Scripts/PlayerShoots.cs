@@ -28,9 +28,9 @@ namespace playershoots
         const float shotgunFrecuency=0.5f;
         //--------balas en cargador,tamaño de cargador,municion maxima
         public static int[,] munitions = new int[,]{
-            {15,15,99},//pistola municion maxima infinita
+            {15,15,999},//pistola municion maxima infinita
             {0, 50,100},//rifle
-            {2,5,20}//Escopeta
+            {5,5,20}//Escopeta
         };
 
 
@@ -67,9 +67,8 @@ namespace playershoots
                     munition = munitions[0, 0];
                     charger = munitions[0, 1];
                     maxMunition = munitions[0, 2];
-
-
                 }
+
                 if (Input.GetKeyDown(KeyCode.Alpha2) && state != 1)
                 {
 
@@ -85,8 +84,8 @@ namespace playershoots
                     munition = munitions[1, 0];
                     charger = munitions[1, 1];
                     maxMunition = munitions[1, 2];
-
                 }
+
                 if (Input.GetKeyDown(KeyCode.Alpha3) && state != 2)
                 {
 
@@ -127,7 +126,7 @@ namespace playershoots
 
                     if (state == 0)
                     {
-                        maxMunition = 99;
+                        maxMunition = 999;
                     }
                 }
                 else if (Input.GetKeyDown(KeyCode.R) && !isShooting && munition < charger && maxMunition > 0 && state==2)
@@ -148,11 +147,9 @@ namespace playershoots
                         AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
                         if (info.IsName("shoot") && info.normalizedTime >= 1F)
                         {
-                            Debug.Log("parada disparo pistola");
                             setIsShootingFalse();
                         }
                     }
-
                 }
                 else if (Input.GetKey(KeyCode.Mouse0) && state == 1 && munition > 0)
                 {
@@ -168,7 +165,6 @@ namespace playershoots
                             AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
                             if (info.IsName("Shoot") && info.normalizedTime >= 1F)
                             {
-                                Debug.Log("parada disparo rifle");
                                 setIsShootingFalse();
                             }
                         }
@@ -178,7 +174,7 @@ namespace playershoots
                 {
                     if (Time.time - lastShoot > shotgunFrecuency)
                     {
-                        weapon.shoot();
+                        weapon.shotgunShoot();
                         isShooting = true;
                         animator.SetBool("IsShooting", true);
                         --munition;
@@ -188,13 +184,11 @@ namespace playershoots
                             AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
                             if (info.IsName("Shoot") && info.normalizedTime >= 1F)
                             {
-                                
                                 setIsShootingFalse();
                             }
                         }
                         lastShoot = Time.time;
                     }
-                   
                 }
             }
             else

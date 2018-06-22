@@ -8,7 +8,7 @@ namespace shooter
     public class Weapon : MonoBehaviour
     {
         public Transform firePoint;
-        public Transform bulletPrefab;
+        public BulletController bulletPrefab;
         public GameObject bulletshotgun;
         
 
@@ -45,7 +45,32 @@ namespace shooter
             //Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, 0));
             //Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, -3f));
             //Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, -6f));
-            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            BulletController temp;
+            temp = Instantiate(bulletPrefab);
+            temp.transform.position = firePoint.transform.position;
+            temp.transform.rotation = firePoint.rotation;
+            //temp.SetBullet(firePoint.right);
+
+            temp = Instantiate(bulletPrefab);
+            temp.transform.position = firePoint.transform.position;
+            temp.transform.rotation = firePoint.rotation;
+            temp.transform.Rotate(new Vector3(0,0,-12f));
+            //temp.SetBullet(firePoint.right * Mathf.Cos(30));
+
+            temp = Instantiate(bulletPrefab);
+            temp.transform.position = firePoint.transform.position;
+            temp.transform.rotation = firePoint.rotation;
+            temp.transform.Rotate(new Vector3(0, 0, 12f));
+
+            temp = Instantiate(bulletPrefab);
+            temp.transform.position = firePoint.transform.position;
+            temp.transform.rotation = firePoint.rotation;
+            temp.transform.Rotate(new Vector3(0, 0, -24f));
+
+            temp = Instantiate(bulletPrefab);
+            temp.transform.position = firePoint.transform.position;
+            temp.transform.rotation = firePoint.rotation;
+            temp.transform.Rotate(new Vector3(0, 0, 24f));
 
 
         }
