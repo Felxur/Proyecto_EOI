@@ -7,6 +7,7 @@ public class EnemyRaycast : MonoBehaviour
 {
     private bool isAttacking;
     Vector3 lastPosition;
+    int random;
 
     // Variables para gestionar el radio de visión, el de ataque y la velocidad
     public float visionRadius;
@@ -124,10 +125,11 @@ public class EnemyRaycast : MonoBehaviour
         // Si es el enemigo y está en rango de ataque nos paramos y le atacamos
         if (target != initialPosition && distance < attackRadius)
         {
+            
             // Aquí le atacaríamos
             isAttacking = true;
             anim.SetBool("IsAttacking", true);
-            //attackSound();
+            random = Random.Range(0, 4);
             if (isAttacking == true)
             {
                 AnimatorStateInfo info = anim.GetCurrentAnimatorStateInfo(0);
@@ -136,7 +138,6 @@ public class EnemyRaycast : MonoBehaviour
                     setIsAttackingFalse();
                 }
             }
-
         }
         // En caso contrario nos movemos hacia él
         else //if(distance < visionRadius && distance>attackRadius)
