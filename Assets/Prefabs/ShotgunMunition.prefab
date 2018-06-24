@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4663599497435414}
   - component: {fileID: 212864327253116052}
   - component: {fileID: 61905862835785074}
+  - component: {fileID: 50981718443469866}
   m_Layer: 10
   m_Name: ShotgunMunition
   m_TagString: ShotgunMunition
@@ -35,12 +36,32 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1009173814855340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8396395, y: -1.0712632, z: 0}
+  m_LocalPosition: {x: 27.855804, y: -0.8980131, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50981718443469866
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1009173814855340}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &61905862835785074
 BoxCollider2D:
   m_ObjectHideFlags: 1

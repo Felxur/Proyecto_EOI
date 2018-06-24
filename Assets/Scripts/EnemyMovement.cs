@@ -6,19 +6,21 @@ using playershoots;
 public class EnemyMovement : MonoBehaviour {
     private Animator animator;
     public float speed;
-    private float lastScream;
-    private float screamFrecuency;
     private Transform target;
     public float stopingDistance;
     private bool isAttacking = false;
+
+    //daños
     public static int damage = 20;
     public int enemyLife = 60;
     public int bulletPistolDamage = 8;
     public int bulletRifleDamage = 17;
     public int bulletShotgunDamage = 15;
-    
+
 
     //audio
+    private float lastScream;
+    private float screamFrecuency;
     public AudioSource audioEnemy;
     public AudioSource screamEnemy;
     public AudioSource attack;
@@ -67,7 +69,7 @@ public class EnemyMovement : MonoBehaviour {
         {
             target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         }
-        //movimiento del enemigo
+        //movimiento del enemigo hacia el jugador
         if (Vector2.Distance(transform.position, target.position) > stopingDistance && !isAttacking)
         {
             animator.SetBool("IsWalking", true);
@@ -77,7 +79,7 @@ public class EnemyMovement : MonoBehaviour {
             transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
         }
         else
-        {
+        {//ataque del enemigo
             animator.SetBool("IsWalking", false);
             isAttacking = true;
             animator.SetBool("IsAttacking", true);

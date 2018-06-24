@@ -477,7 +477,6 @@ MonoBehaviour:
   hit1: {fileID: 8300000, guid: 403480220c367c94584477d156e8e1fa, type: 3}
   hit2: {fileID: 8300000, guid: 9d6120c217a26e54e9e914cacfd04c3c, type: 3}
   hit3: {fileID: 8300000, guid: f52f6af2fbd590341a3be554f0361dc7, type: 3}
-  attacks: []
 --- !u!212 &212774966535793926
 SpriteRenderer:
   m_ObjectHideFlags: 1
