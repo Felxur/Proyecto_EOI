@@ -9,7 +9,7 @@ namespace playershoots
     public class PlayerShoots : MonoBehaviour
     {
 
-        //Rigidbody2D rb;
+       
         float positionX;
         float positionY;
         public Animator animator;
@@ -26,6 +26,21 @@ namespace playershoots
         float lastShoot;
         const float rifleFrequency = 0.15f;
         const float shotgunFrecuency=0.5f;
+        const float pistolFrecuency = 0.2f;
+
+        //Audio
+        public AudioSource audioGuns;
+        public AudioClip pistolShoot;
+        public AudioClip pistolReload;
+        public AudioClip rifleShoot;
+        public AudioClip rifleReload;
+        public AudioClip shotgunShoot;
+        public AudioClip shotgunReload;
+
+        public AudioSource audioCollision;
+        public AudioClip munitionBox;
+
+
         //--------balas en cargador,tamaño de cargador,municion maxima
         public static int[,] munitions = new int[,]{
             {15,15,999},//pistola municion maxima infinita
@@ -37,9 +52,11 @@ namespace playershoots
 
         void Awake()
         {
+            
         }
         void Start()
         {
+
             munition = munitions[0, 0];
             charger = munitions[0, 1];
             maxMunition = munitions[0, 2];
@@ -109,10 +126,21 @@ namespace playershoots
         {
             if (!isReloading)
             {
+                //recarga de pistola y rifle
                 if (Input.GetKeyDown(KeyCode.R) && !isShooting && munition < charger && maxMunition > 0 && state!=2)
                 {
 
                     isReloading = true;
+                    if (state==0)
+                    {
+                        audioGuns.clip = pistolReload;
+                        audioGuns.Play();
+                    }
+                    else
+                    {
+                        audioGuns.clip = rifleReload;
+                        audioGuns.Play();
+                    }
                     animator.SetBool("IsReloading", true);
                     throwclip();
 
@@ -128,34 +156,47 @@ namespace playershoots
                     {
                         maxMunition = 999;
                     }
-                }
+                }//recarga de escopeta
                 else if (Input.GetKeyDown(KeyCode.R) && !isShooting && munition < charger && maxMunition > 0 && state==2)
                 {
+                    audioGuns.clip = shotgunReload;
+                    audioGuns.Play();
                     isReloading = true;
                     animator.SetBool("IsReloading", true);
                     maxMunition--;
                     munition++;
                 }
+
+                //Gestion de disparos
+                //Pistola
                 if (Input.GetKeyDown(KeyCode.Mouse0) && state == 0 && munition > 0)
                 {
-                    weapon.shoot();
-                    isShooting = true;
-                    animator.SetBool("IsShooting", true);
-                    --munition;
-                    if (isShooting == true)
+                    if (Time.time - lastShoot > pistolFrecuency)
                     {
-                        AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
-                        if (info.IsName("shoot") && info.normalizedTime >= 1F)
+                        weapon.shoot();
+                        audioGuns.clip = pistolShoot;
+                        audioGuns.Play();
+                        isShooting = true;
+                        animator.SetBool("IsShooting", true);
+                        --munition;
+                        if (isShooting == true)
                         {
-                            setIsShootingFalse();
+                            AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
+                            if (info.IsName("shoot") && info.normalizedTime >= 1F)
+                            {
+                                setIsShootingFalse();
+                            }
                         }
+                        lastShoot = Time.time;
                     }
-                }
+                }//Rifle
                 else if (Input.GetKey(KeyCode.Mouse0) && state == 1 && munition > 0)
                 {
                     if (Time.time - lastShoot > rifleFrequency)
                     {
                         weapon.shoot();
+                        audioGuns.clip = rifleShoot;
+                        audioGuns.Play();
                         isShooting = true;
                         animator.SetBool("IsShooting", true);
                         --munition;
@@ -170,10 +211,13 @@ namespace playershoots
                         }
                         lastShoot = Time.time;
                     }
+                //Escopeta
                 }else if(Input.GetKeyDown(KeyCode.Mouse0) && state == 2 && munition > 0)
                 {
                     if (Time.time - lastShoot > shotgunFrecuency)
                     {
+                        audioGuns.clip = shotgunShoot;
+                        audioGuns.Play();
                         weapon.shotgunShoot();
                         isShooting = true;
                         animator.SetBool("IsShooting", true);
@@ -207,7 +251,6 @@ namespace playershoots
         }
         void setIsShootingFalse()
         {
-            Debug.Log("isShooting false");
             isShooting = false;
             animator.SetBool("IsShooting", false);
         }
@@ -239,6 +282,8 @@ namespace playershoots
         {
             if (collision.gameObject.CompareTag("RifleMunition"))
             {
+                audioCollision.clip = munitionBox;
+                audioCollision.Play();
                 if (state==1)
                 {
                     maxMunition += Random.Range(10, 25);
@@ -251,6 +296,8 @@ namespace playershoots
             }
             if (collision.gameObject.CompareTag("ShotgunMunition"))
             {
+                audioCollision.clip = munitionBox;
+                audioCollision.Play();
                 if (state == 2)
                 {
                     maxMunition += Random.Range(3, 6);
