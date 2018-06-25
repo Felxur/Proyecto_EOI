@@ -142,7 +142,7 @@ MonoBehaviour:
     type: 2}
   quantity: 5
   delay: 3
-  repeat: 1
+  repeat: 0
 --- !u!114 &114852806841886770
 MonoBehaviour:
   m_ObjectHideFlags: 1

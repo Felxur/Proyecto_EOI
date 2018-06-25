@@ -62,7 +62,7 @@ public class EnemyMovement : MonoBehaviour {
         if (Time.time - lastScream > screamFrecuency)
         {
             scream();
-            screamFrecuency = Random.Range(3f, 6f);
+            screamFrecuency = Random.Range(6f, 20f);
             lastScream = Time.time;
         }
         //selecciona objetivo cuando el jugador cambia de arma

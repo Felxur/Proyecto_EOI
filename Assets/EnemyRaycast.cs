@@ -147,9 +147,7 @@ public class EnemyRaycast : MonoBehaviour
                 anim.SetBool("IsWalking", true);
                
                 transform.position = Vector2.MoveTowards(transform.position, playerLooker.position, speed * Time.deltaTime);
-                Quaternion rotation = Quaternion.LookRotation
-                (playerLooker.transform.position - transform.position, transform.TransformDirection(Vector3.up));
-                transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
+                transform.right = (playerLooker.transform.position - transform.position).normalized;
             }
         }
 

@@ -1439,6 +1439,7 @@ MonoBehaviour:
   shotgunReload: {fileID: 0}
   audioCollision: {fileID: 82211249276667384}
   munitionBox: {fileID: 8300000, guid: 4dbfd0092db89574c8490d9ea9d3a25a, type: 3}
+  healBox: {fileID: 8300000, guid: 4428c0ff8c81d234db8824d0cb62b060, type: 3}
 --- !u!114 &114215866605022108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1477,6 +1478,7 @@ MonoBehaviour:
   shotgunReload: {fileID: 8300000, guid: 0e4afb63bc352244484489e664e05e08, type: 3}
   audioCollision: {fileID: 82397854568420468}
   munitionBox: {fileID: 8300000, guid: 4dbfd0092db89574c8490d9ea9d3a25a, type: 3}
+  healBox: {fileID: 8300000, guid: 4428c0ff8c81d234db8824d0cb62b060, type: 3}
 --- !u!114 &114341440718426150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1503,6 +1505,7 @@ MonoBehaviour:
   shotgunReload: {fileID: 0}
   audioCollision: {fileID: 82601988774566772}
   munitionBox: {fileID: 8300000, guid: 4dbfd0092db89574c8490d9ea9d3a25a, type: 3}
+  healBox: {fileID: 8300000, guid: 4428c0ff8c81d234db8824d0cb62b060, type: 3}
 --- !u!114 &114427050678836782
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -39,6 +39,7 @@ namespace playershoots
 
         public AudioSource audioCollision;
         public AudioClip munitionBox;
+        public AudioClip healBox;
 
 
         //--------balas en cargador,tamaño de cargador,municion maxima
@@ -309,6 +310,20 @@ namespace playershoots
                     munitions[2, 2] += Random.Range(3, 6);
                 }
                 Destroy(collision.gameObject);
+            }
+            if (collision.gameObject.CompareTag("Health"))
+            {
+                if (PlayerController.life<100)
+                {
+                    audioCollision.clip = healBox;
+                    audioCollision.Play();
+                    PlayerController.life += 20;
+                    Destroy(collision.gameObject);
+                    if (PlayerController.life > 100)
+                    {
+                        PlayerController.life = 100;
+                    }   
+                }
             }
             if (collision.gameObject.CompareTag("MisionObject"))
             {

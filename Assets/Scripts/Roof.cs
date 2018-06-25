@@ -23,7 +23,11 @@ public class Roof : MonoBehaviour {
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        roof.SetActive(true);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            roof.SetActive(true);
+        }
+        
     }
 
 }

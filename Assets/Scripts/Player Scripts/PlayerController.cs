@@ -54,11 +54,5 @@ public class PlayerController : MonoBehaviour {
         {
             life -=EnemyDamage;
         }
-        if (collision.tag.Equals("Health"))
-        {
-            life += 15;
-            life += 15;
-            Destroy(collision.gameObject);
-        }
     }
 }
