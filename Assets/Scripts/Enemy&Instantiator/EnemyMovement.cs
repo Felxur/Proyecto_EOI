@@ -75,9 +75,7 @@ public class EnemyMovement : MonoBehaviour {
         {
             animator.SetBool("IsWalking", true);
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-            Quaternion rotation = Quaternion.LookRotation
-             (target.transform.position - transform.position, transform.TransformDirection(Vector3.up));
-            transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
+            transform.right = (target.transform.position - transform.position).normalized;
         }
         else
         {//ataque del enemigo

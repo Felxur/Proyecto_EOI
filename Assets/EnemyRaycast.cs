@@ -81,7 +81,7 @@ public class EnemyRaycast : MonoBehaviour
             screamFrecuency = Random.Range(3f, 6f);
             lastScream = Time.time;
         }
-
+        
 
         anim.SetBool("IsWalking", false);
         if (PlayerShoots.isReloading == false && (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3)))
@@ -145,10 +145,10 @@ public class EnemyRaycast : MonoBehaviour
             if (isAttacking == false)
             {
                 anim.SetBool("IsWalking", true);
-                //rb2d.MovePosition(transform.position + dir * speed * Time.deltaTime);
+               
                 transform.position = Vector2.MoveTowards(transform.position, playerLooker.position, speed * Time.deltaTime);
                 Quaternion rotation = Quaternion.LookRotation
-                 (playerLooker.transform.position - transform.position, transform.TransformDirection(Vector3.up));
+                (playerLooker.transform.position - transform.position, transform.TransformDirection(Vector3.up));
                 transform.rotation = new Quaternion(0, 0, rotation.z, rotation.w);
             }
         }

@@ -266,7 +266,6 @@ namespace playershoots
 
         public void setPistolMunition(int muni, int maxMuni)
         {
-            Debug.Log("setpistolmuni");
             munitions[0, 0] = muni;
             munitions[0, 2] = maxMuni;
         }

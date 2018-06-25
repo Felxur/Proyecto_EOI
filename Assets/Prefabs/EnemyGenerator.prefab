@@ -39,7 +39,7 @@ GameObject:
   m_Layer: 5
   m_Name: Instantiator
   m_TagString: Respawn
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -81,7 +81,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1759742457132652}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.98, y: 0.15, z: 0}
+  m_LocalPosition: {x: -3.28, y: 1.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4630784272224534}
@@ -94,7 +94,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1034465994490274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.541098, y: -1.9132912, z: 0.17021774}
+  m_LocalPosition: {x: -41.07, y: -4.54, z: 0.17021774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4114542796879836}
@@ -138,10 +138,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffedb1ea2f3c1a84b8ce727c92d2a874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1925507210471768, guid: 0c5b0a82fbeaf8543b18e925023bfadd,
+  enemyPrefab: {fileID: 1557395285606200, guid: 0524880df0afd0c4e9bdba54c1600bba,
     type: 2}
   quantity: 5
-  delay: 1
+  delay: 3
   repeat: 1
 --- !u!114 &114852806841886770
 MonoBehaviour:

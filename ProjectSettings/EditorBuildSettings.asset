@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MenuPrincipal.unity
+    guid: 4e36692788b737c41876b1b32194f5de
+  - enabled: 1
+    path: Assets/Scenes/Mapa_Miguel.unity
+    guid: be6670f972146444bb72f4e34bbd2307
   m_configObjects: {}
