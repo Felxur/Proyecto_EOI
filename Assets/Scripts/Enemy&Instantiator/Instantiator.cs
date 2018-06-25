@@ -26,7 +26,7 @@ public class Instantiator : MonoBehaviour {
             if (currentTime >= delay && quantity>0)
             {
                 currentTime = 0f;
-                Instantiate(enemyPrefab);
+                Instantiate(enemyPrefab, transform.position, Quaternion.identity);
                 quantity--;
             }else if (quantity == 0 && repeat==true)
             {

@@ -253,7 +253,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.73
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -461,9 +461,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60f07ccdbcdd58143b9c4df616d88b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visionRadius: 6.49
+  visionRadius: 11
   attackRadius: 1.75
-  speed: 3.03
+  speed: 5.05
   enemyLife: 60
   bulletPistolDamage: 8
   bulletRifleDamage: 17

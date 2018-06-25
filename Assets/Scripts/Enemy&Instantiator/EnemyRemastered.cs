@@ -50,6 +50,7 @@ public class EnemyRemastered : MonoBehaviour {
             player = GameObject.FindGameObjectWithTag("Player");
             playerTarget = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         
+
         // Por defecto nuestro target siempre será nuestra posición inicial
         Vector3 target = initialPosition;
 

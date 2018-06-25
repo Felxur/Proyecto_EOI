@@ -461,7 +461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5ed3e92ed52164c8eae614e3481293, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.96
+  speed: 6
   stopingDistance: 1.76
   enemyLife: 60
   bulletPistolDamage: 8

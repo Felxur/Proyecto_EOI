@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4630784272224534}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: EnemyGenerator
   m_TagString: Respawn
   m_Icon: {fileID: 0}
@@ -36,10 +36,10 @@ GameObject:
   - component: {fileID: 4114542796879836}
   - component: {fileID: 212146983786537330}
   - component: {fileID: 114844803473909734}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Instantiator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: Respawn
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 212496297180227012}
   - component: {fileID: 61374401424519884}
   - component: {fileID: 114852806841886770}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1702601571973680}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.35, y: 2.24, z: 0}
+  m_LocalPosition: {x: -17.07, y: 1.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4630784272224534}
@@ -94,7 +94,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1034465994490274}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.11, y: -0.12010181, z: 0.17021774}
+  m_LocalPosition: {x: 12.541098, y: -1.9132912, z: 0.17021774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4114542796879836}
@@ -114,7 +114,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.083115816, y: -0.42727757}
+  m_Offset: {x: -0.083115816, y: 0.95771646}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -125,7 +125,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.84570456, y: 1.7281358}
+  m_Size: {x: 0.84570456, y: 7.268117}
   m_EdgeRadius: 0
 --- !u!114 &114844803473909734
 MonoBehaviour:
@@ -138,11 +138,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffedb1ea2f3c1a84b8ce727c92d2a874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1948465894241510, guid: 39df73b3e9f9f4d48a0790aa4370c29c,
+  enemyPrefab: {fileID: 1925507210471768, guid: 0c5b0a82fbeaf8543b18e925023bfadd,
     type: 2}
   quantity: 5
   delay: 1
-  repeat: 0
+  repeat: 1
 --- !u!114 &114852806841886770
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -61,6 +61,7 @@ namespace playershoots
             charger = munitions[0, 1];
             maxMunition = munitions[0, 2];
             state = 0;
+            setPistolMunition(munition,maxMunition);
         }
 
 
@@ -72,6 +73,7 @@ namespace playershoots
             {
                 if (Input.GetKeyDown(KeyCode.Alpha1) && state!=0)
                 {
+                    audioGuns.Stop();
                     if (state == 1)
                     {
                         setRifleMunition(munition, maxMunition);
@@ -88,7 +90,7 @@ namespace playershoots
 
                 if (Input.GetKeyDown(KeyCode.Alpha2) && state != 1)
                 {
-
+                    audioGuns.Stop();
                     if (state == 0)
                     {
                         setPistolMunition(munition, maxMunition);
@@ -105,7 +107,7 @@ namespace playershoots
 
                 if (Input.GetKeyDown(KeyCode.Alpha3) && state != 2)
                 {
-
+                    audioGuns.Stop();
                     if (state == 0)
                     {
                         setPistolMunition(munition, maxMunition);
@@ -264,6 +266,7 @@ namespace playershoots
 
         public void setPistolMunition(int muni, int maxMuni)
         {
+            Debug.Log("setpistolmuni");
             munitions[0, 0] = muni;
             munitions[0, 2] = maxMuni;
         }

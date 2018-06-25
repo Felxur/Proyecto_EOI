@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour {
 
         Vector2 direccion = new Vector2(horizontal, vertical).normalized;
 
-        rb.velocity = direccion * speed;//¿es necesario que velocidad esta tambien regulada por time.deltatime?
+        rb.velocity = direccion * speed;
 
         if (horizontal !=0 || vertical!=0 )
         {

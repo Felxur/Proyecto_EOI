@@ -9,6 +9,7 @@ public class EnemyMovement : MonoBehaviour {
     private Transform target;
     public float stopingDistance;
     private bool isAttacking = false;
+    int random;
 
     //daños
     public static int damage = 20;
@@ -83,7 +84,7 @@ public class EnemyMovement : MonoBehaviour {
             animator.SetBool("IsWalking", false);
             isAttacking = true;
             animator.SetBool("IsAttacking", true);
-            attackSound();
+            random = Random.Range(0, 4);
             if (isAttacking == true)
             {
                 AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);

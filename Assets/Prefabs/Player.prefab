@@ -19,24 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4671787319463100}
-  m_Layer: 8
-  m_Name: FirePoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1088304334211478
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4749396041545258}
-  - component: {fileID: 108585580675386748}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,7 +53,7 @@ GameObject:
   - component: {fileID: 4694882893214530}
   - component: {fileID: 212266950505211160}
   - component: {fileID: 114796369177535866}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +86,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4411730077307892}
   - component: {fileID: 212776911235687362}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: muzzle_flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +191,7 @@ GameObject:
   - component: {fileID: 4869133110196828}
   - component: {fileID: 212302559756936462}
   - component: {fileID: 95791961263759248}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +216,7 @@ GameObject:
   - component: {fileID: 114341440718426150}
   - component: {fileID: 82410856965415762}
   - component: {fileID: 82601988774566772}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SurvivorPistol
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -320,7 +304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4370581229328742}
   - component: {fileID: 61754663349116922}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Melee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -387,7 +371,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1773219749788034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.61, y: -6.6, z: 0}
+  m_LocalPosition: {x: -93.92, y: -5.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4612612386128632}
@@ -474,14 +458,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1554863365489752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 120.19, y: 1.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4869133110196828}
   - {fileID: 4411730077307892}
   - {fileID: 4694882893214530}
   - {fileID: 4370581229328742}
-  - {fileID: 4749396041545258}
   m_Father: {fileID: 4267050673870030}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -512,19 +495,6 @@ Transform:
   m_Father: {fileID: 4612612386128632}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4749396041545258
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088304334211478}
-  m_LocalRotation: {x: -0, y: 0.6056709, z: -0, w: 0.7957153}
-  m_LocalPosition: {x: 1.21, y: -0.57, z: -1.74}
-  m_LocalScale: {x: 1, y: 1, z: 1.0749998}
-  m_Children: []
-  m_Father: {fileID: 4612612386128632}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 74.554, z: 0}
 --- !u!4 &4760052307898276
 Transform:
   m_ObjectHideFlags: 1
@@ -1430,42 +1400,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!108 &108585580675386748
-Light:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088304334211478}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 0
-  m_Color: {r: 0.9528302, g: 0.9448659, b: 0.74158955, a: 1}
-  m_Intensity: 1
-  m_Range: 7.952786
-  m_SpotAngle: 22.905111
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 1
-    m_Resolution: 1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 2
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!114 &114115134438026932
 MonoBehaviour:
   m_ObjectHideFlags: 1
