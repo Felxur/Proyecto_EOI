@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using playershoots;
 
 public class EnemyRemastered : MonoBehaviour {
 
@@ -41,7 +42,14 @@ public class EnemyRemastered : MonoBehaviour {
 
     void Update()
     {
+
         bulletDamage = BulletController.damageBullet;
+
+        //selecciona objetivo cuando el jugador cambia de arma
+        
+            player = GameObject.FindGameObjectWithTag("Player");
+            playerTarget = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        
         // Por defecto nuestro target siempre será nuestra posición inicial
         Vector3 target = initialPosition;
 
