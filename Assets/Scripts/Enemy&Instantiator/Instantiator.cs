@@ -19,20 +19,7 @@ public class Instantiator : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        activator = Trigger.activate;
-        if (activator==true)
-        {
-            currentTime += Time.deltaTime;
-            if (currentTime >= delay && quantity>0)
-            {
-                currentTime = 0f;
-                Instantiate(enemyPrefab, transform.position, Quaternion.identity);
-                quantity--;
-            }else if (quantity == 0 && repeat==true)
-            {
-                Trigger.activate = false;
-            }
-        }
+        
 
         
 		

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mapa_Miguel.unity
     guid: be6670f972146444bb72f4e34bbd2307
+  - enabled: 1
+    path: Assets/Scenes/Nivel2.unity
+    guid: d55fafb1d415eaa45bb3217bff0fac3b
   m_configObjects: {}
